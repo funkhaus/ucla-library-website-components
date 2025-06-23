@@ -26,3 +26,16 @@ export function FTVAFooter() {
         <footer-main />`,
   }
 }
+
+export function FunkhausFooter() {
+  return {
+    components: { FooterMain },
+    provide() {
+      return {
+        theme: computed(() => 'funkhaus'),
+      }
+    },
+    template: `
+        <footer-main :show-form="true" :show-links="false" :show-sponsor="false"/>`,
+  }
+}

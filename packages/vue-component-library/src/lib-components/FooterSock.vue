@@ -57,4 +57,5 @@ const year = computed(() => {
 <style lang="scss" scoped>
 @import "@/styles/default/_footer-sock.scss";
 @import "@/styles/ftva/_footer-sock.scss";
+@import "@/styles/funkhaus/_footer-sock.scss";
 </style>

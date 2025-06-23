@@ -111,3 +111,20 @@ export function FTVAFooter() {
     template: '<footer-primary :form="true" />',
   }
 }
+// FTVA Stories
+export function FunkhausFooter() {
+  return {
+    data() {
+      return {
+        ...mock,
+      }
+    },
+    provide() {
+      return {
+        theme: computed(() => 'funkhaus'),
+      }
+    },
+    components: { FooterPrimary },
+    template: '<footer-primary :form="true" :social-items="socialItems" :press-items="pressItems"/>',
+  }
+}

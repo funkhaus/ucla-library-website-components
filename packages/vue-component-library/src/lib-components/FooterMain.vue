@@ -1,6 +1,7 @@
 <script lang="ts" setup>
+// Props
 // UTILS
-import { computed } from 'vue'
+import { computed, defineProps } from 'vue'
 import { useTheme } from '@/composables/useTheme'
 
 // CHILD COMPONENTS
@@ -9,32 +10,47 @@ import FooterPrimary from '@/lib-components/FooterPrimary.vue'
 import FooterSock from '@/lib-components/FooterSock.vue'
 import FooterLinks from '@/lib-components/FooterLinks.vue'
 
+const props = defineProps({
+  showForm: {
+    type: Boolean,
+    default: false,
+  },
+  showLinks: {
+    type: Boolean,
+    default: false,
+  },
+  showSponsor: {
+    type: Boolean,
+    default: true,
+  },
+})
+
 // THEME
 const theme = useTheme()
 const classes = computed(() => {
   return ['footer-main', theme?.value || '']
 })
-const showSponsor = computed(() => {
-  if (theme?.value === undefined) {
-    // if no theme, show sponsors as default behavior
-    return true
-  }
-  return false
-})
-const showLinks = computed(() => {
-  if (theme?.value === undefined) {
-    // if no theme, DO NOT show links as default behavior
-    return false
-  }
-  return true
-})
-const showForm = computed(() => {
-  if (theme?.value === 'ftva') {
-    // if ftva theme, show newletter subscribe form
-    return true
-  }
-  return false
-})
+// const showSponsor = computed(() => {
+//   if (theme?.value === undefined) {
+//     // if no theme, show sponsors as default behavior
+//     return true
+//   }
+//   return false
+// })
+// const showLinks = computed(() => {
+//   if (theme?.value === undefined) {
+//     // if no theme, DO NOT show links as default behavior
+//     return false
+//   }
+//   return true
+// })
+// const showForm = computed(() => {
+//   if (theme?.value === 'ftva') {
+//     // if ftva theme, show newletter subscribe form
+//     return true
+//   }
+//   return false
+// })
 </script>
 
 <template>

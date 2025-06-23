@@ -25,3 +25,14 @@ export function FTVAFooter() {
     template: '<footer-sock />',
   }
 }
+export function FunkhausFooter() {
+  return {
+    components: { FooterSock },
+    provide() {
+      return {
+        theme: computed(() => 'funkhaus'),
+      }
+    },
+    template: '<footer-sock />',
+  }
+}

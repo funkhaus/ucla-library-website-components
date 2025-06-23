@@ -1,0 +1,23 @@
+.funkhaus.footer-sock {
+    --unit-content-width: --ftva-container-max-width;
+    background-color: transparent;
+
+    .container {
+        display: flex;
+        .link {
+            color: $white;
+            color: #0F0F0F;
+            text-decoration-color: $grey-blue;
+            text-decoration-color: #0AA5FF;
+
+            &:hover {
+                color: $grey-blue;
+            }
+        }
+
+        .regents {
+            color: $white;
+            color: #717171;
+        }
+    }
+}

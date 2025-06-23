@@ -29,6 +29,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  showForm: {
+    type: Boolean,
+    default: false,
+  },
 })
 const formIcons = {
   arrowRight: SvgArrowRight,
@@ -263,4 +267,5 @@ function formatTarget(target: string) {
 <style lang="scss" scoped>
 @import "@/styles/default/_footer-primary.scss";
 @import "@/styles/ftva/_footer-primary.scss";
+@import "@/styles/funkhaus/_footer-primary.scss";
 </style>
