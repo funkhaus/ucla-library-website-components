@@ -123,14 +123,21 @@ function setPaginationMaxPages(width: number) {
   const nextButtonWidth = Math.ceil(document.getElementsByClassName('next')[0].getBoundingClientRect().width + 10)
   // calc # of buttons that can fit
   // take width minus the width of: 2 page buttons (last button and '...'), 2 prev/next buttons
-  const MaxButtons = Math.max(0, Math.floor(+((width - (prevButtonWidth + nextButtonWidth + (itemWidth * 2))) / itemWidth).toFixed(2)))
+
+  // NOTE: We add 4 to create more space for the buttons in the new version of the component - where it's max-width is set.
+  const MaxButtons = Math.max(0, Math.floor(+((width - (prevButtonWidth + nextButtonWidth + (itemWidth * 4))) / itemWidth).toFixed(2)))
   return MaxButtons
 }
 
 // COMPUTED
 const classes = computed(() => {
-  return ['section-pagination', theme?.value || '', previousTo === '' ? 'first-page' : '', nextTo === '' ? 'last-page' : '']
+  return ['section-pagination', theme?.value || '', previousTo === '' ? 'first-page' : '', nextTo === '' ? 'last-page' : '',
+    {
+      'next-prev-only': ((!initialCurrentPage || !pages) && (previousTo && nextTo)),
+    }
+  ]
 })
+
 const parsedPrevTo = computed(() => {
   return currPage.value - 1
 })
@@ -190,6 +197,7 @@ onMounted(() => {
         Previous
       </div>
     </SmartLink>
+
     <div v-if="initialCurrentPage && pages" class="pagination-numbers-container">
       <div class="pagination-numbers">
         <span v-if="currPage > maxPages" class="page-list-first">
@@ -217,6 +225,7 @@ onMounted(() => {
         </span>
       </div>
     </div>
+
     <!-- if legacy attribute nextTo is supplied, use that for Next button instead of handlePageChange -->
     <SmartLink v-if="nextTo" :to="nextTo" class="next">
       <div class="underline-hover">

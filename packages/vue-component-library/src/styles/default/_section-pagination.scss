@@ -1,9 +1,11 @@
 .section-pagination {
-    max-width: 990px;
 
     font-family: var(--font-secondary);
     font-size: 18px;
+    line-height: 1;
+
     padding-left: 13px;
+    box-sizing: border-box;
 
     display: flex;
     flex-direction: row;
@@ -29,6 +31,22 @@
 
     .next-svg {
         margin-left: 5px;
+    }
+
+
+    &.next-prev-only{
+        justify-content: center;
+        max-width: max-content;
+        .previous{
+            &:after{
+                margin: 0 12px;
+
+                content: '';
+                height: 40px;
+                width: 1px;
+                background-color: var(--color-secondary-grey-02);
+            }
+        }
     }
 
     &.first-page {
@@ -72,19 +90,37 @@
             background-color: transparent;
             color: var(--color-secondary-grey-04);
             font-size: 18px;
+            line-height: 1;
             padding: 0 12px;
+            box-sizing: border-box;
             border: none;
             border-radius: 4px;
             margin: 0 6px;
+
+            transition: background-color 0.2s ease-in-out;
+
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
         }
 
         .pButton-selected {
             background-color: var(--color-primary-blue-01);
+
+            
         }
     }
 
     // Hover states
     @media #{$has-hover} {
+
+        .pagination-numbers-container .pButton:hover{
+            background-color: var(--color-primary-blue-01);
+            color: var(--color-primary-blue-03);
+        }
 
         .previous:hover,
         .previous:active {
