@@ -1,5 +1,4 @@
 .section-pagination {
-
     font-family: var(--font-secondary);
     font-size: 18px;
     line-height: 1;
@@ -33,15 +32,14 @@
         margin-left: 5px;
     }
 
-
-    &.next-prev-only{
+    &.next-prev-only {
         justify-content: center;
         max-width: max-content;
-        .previous{
-            &:after{
+        .previous {
+            &:after {
                 margin: 0 12px;
 
-                content: '';
+                content: "";
                 height: 40px;
                 width: 1px;
                 background-color: var(--color-secondary-grey-02);
@@ -109,15 +107,12 @@
 
         .pButton-selected {
             background-color: var(--color-primary-blue-01);
-
-            
         }
     }
 
     // Hover states
     @media #{$has-hover} {
-
-        .pagination-numbers-container .pButton:hover{
+        .pagination-numbers-container .pButton:hover {
             background-color: var(--color-primary-blue-01);
             color: var(--color-primary-blue-03);
         }
