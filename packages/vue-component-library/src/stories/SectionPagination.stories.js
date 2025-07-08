@@ -60,6 +60,23 @@ export function WithPagesAndCurrentPage() {
     template: '<section-pagination :pages="23" :initialCurrentPage="4" :generateLinkCallback="sampleCallback"/>',
   }
 }
+export function WithPagesAndCurrentPageFunkhaus() {
+  // mock a library site page where someone has searched 'new' like this:
+  // https://www.library.ucla.edu/search-site?q=new&from=10'
+  router.push({ path: 'search-site', query: { q: 'new', from: 10 } })
+  return {
+    setup() {
+      // sample callback to generate the link
+      const sampleCallback = (pageNumber, queryParams) => {
+        return `/search-site?${queryParams}`
+      }
+
+      return { sampleCallback }
+    },
+    components: { SectionPagination },
+    template: '<div style="max-width:540px;"><section-pagination :pages="23" :initialCurrentPage="13" :generateLinkCallback="sampleCallback"/></div>',
+  }
+}
 
 // this story uses an async fetch to get the total number of pages
 // like the FTVA event listing page
