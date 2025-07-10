@@ -1,6 +1,7 @@
 import { computed } from "vue"
-import ButtonRemoveSearchFilter from "@/lib-components/ButtonRemoveSearchFilter"
 import router from "@/router"
+import ButtonRemoveSearchFilter from "@/lib-components/ButtonRemoveSearchFilter"
+import { ButtonTagIcons } from "@/types/components/buttonTag.types"
 
 export default {
     title: "Funkhaus / Button Remove Search Filter",
@@ -63,7 +64,7 @@ export function DefaultSelected() {
 export function WithIcon() {
     return {
         data() {
-            return { isSelected: false, iconName: "SvgIconGuest" }
+            return { isSelected: false, iconName: ButtonTagIcons.SvgIconGuest }
         },
         methods: {
             handleClick() {
@@ -135,13 +136,13 @@ function FTVATemplate(args) {
 export const FTVA = FTVATemplate.bind({})
 FTVA.args = {
     title: "FTVA",
-    iconName: "SvgIconGuest",
+    iconName: ButtonTagIcons.SvgIconGuest,
     isSelected: false,
 }
 
 export const FTVASelected = FTVATemplate.bind({})
 FTVASelected.args = {
     title: "FTVA",
-    iconName: "SvgIconGuest",
+    iconName: ButtonTagIcons.SvgIconGuest,
     isSelected: true,
 }

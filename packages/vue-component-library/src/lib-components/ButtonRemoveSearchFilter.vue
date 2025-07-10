@@ -15,7 +15,7 @@ const SvgGlyphX = defineAsyncComponent(
 )
 
 type ButtonRemoveSearchFilterProps = {
-    title?: string
+    title?: string | string[]
     iconName?: ButtonTagIcons
     isSelected?: boolean
 }
@@ -44,7 +44,6 @@ const classes = computed(() => [
         <ButtonTag
             :label="title"
             :icon-name="iconName"
-            :theme="theme"
             :variant="ButtonTagVariants.Secondary"
         >
             <component :is="SvgGlyphX" class="button-close" />
