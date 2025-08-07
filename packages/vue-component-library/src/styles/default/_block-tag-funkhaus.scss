@@ -1,0 +1,78 @@
+.block-tag {
+    --transition-duration: 0.2s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background-color: #{$white};
+    border: 1.5px var(--color-default-cyan-03) solid;
+    border-radius: 4px;
+    padding: 12px;
+
+    height: 42px;
+    width: fit-content;
+
+    transition: background-color var(--transition-duration) ease-in-out,
+        border-color var(--transition-duration) ease-in-out;
+
+    .label {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: var(--primary-blue-05);
+
+        transition: color var(--transition-duration) ease-in-out;
+    }
+
+    // Custom icon on the left
+    .icon-left {
+        height: 15px;
+        width: 15px;
+
+        :deep(path) {
+            fill: $subtitle-grey;
+
+            transition: fill var(--transition-duration) ease-in-out;
+        }
+    }
+
+    // Arrow between label items
+    .icon-arrow {
+        :deep(path) {
+            stroke: $subtitle-grey;
+
+            transition: stroke var(--transition-duration) ease-in-out;
+        }
+    }
+
+    // Add pointer cursor for clickable tags
+    &.has-on-click {
+        cursor: pointer;
+
+        :deep(a) {
+            text-decoration: underline;
+        }
+    }
+
+    // Highlight styles
+    &.is-highlighted {
+        background-color: var(--color-default-cyan-03);
+        color: var(--color-white);
+        border: none;
+
+        .label {
+            color: var(--color-white);
+        }
+    }
+
+    // Hovers
+    @media #{$has-hover} {
+        &.is-highlighted.has-on-click:hover {
+            border-color: var(--color-secondary-blue-01);
+            background-color: var(--color-secondary-blue-01);
+        }
+    }
+}
