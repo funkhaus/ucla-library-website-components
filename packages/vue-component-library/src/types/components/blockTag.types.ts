@@ -1,4 +1,4 @@
-export enum ButtonTagIcons {
+export enum BlockTagIcons {
     SvgIconGuest = "SvgIconGuest",
     SvgIconFilm = "SvgIconFilm",
     SvgIconTV = "SvgIconTV",
@@ -8,7 +8,7 @@ export enum ButtonTagIcons {
     SvgIconFamilyFriendly = "SvgIconFamilyFriendly",
 }
 
-export enum ButtonTagVariants {
+export enum BlockTagVariants {
     Primary = "primary",
     Secondary = "secondary",
 }

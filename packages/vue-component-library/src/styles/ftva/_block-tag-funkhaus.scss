@@ -1,0 +1,44 @@
+.ftva.block-tag {
+    padding: 8px 16px;
+    height: 32px;
+    gap: 8px;
+
+    background-color: transparent;
+    border: 1.5px solid $subtitle-grey;
+    border-radius: 16px;
+
+    .label {
+        // FTVA Styles
+        @include ftva-tags;
+        color: $subtitle-grey;
+    }
+
+    &.is-primary {
+        background-color: $accent-blue;
+        border: none;
+
+        .icon-left {
+            :deep(path) {
+                fill: $pure-white;
+            }
+        }
+
+        .label {
+            color: $pure-white;
+        }
+
+        .icon-arrow {
+            :deep(path) {
+                stroke: $pure-white;
+            }
+        }
+    }
+
+    &.is-highlighted {
+        background-color: $page-blue;
+
+        .label {
+            color: $subtitle-grey;
+        }
+    }
+}
