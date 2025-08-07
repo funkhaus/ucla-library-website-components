@@ -1,0 +1,57 @@
+.ftva.block-remove-search-filter {
+    // Is FTVA Variant
+    :deep(.block-tag) {
+        height: 40px;
+        .label {
+            font-size: 18px;
+        }
+    }
+
+    &.is-selected {
+        :deep(.block-tag) {
+            border-color: $accent-blue;
+            background-color: $accent-blue;
+
+            .label {
+                color: $pure-white;
+            }
+        }
+
+        :deep(.icon-arrow) {
+            path {
+                stroke: $pure-white;
+            }
+        }
+
+        :deep(path.svg__fill--medium-grey) {
+            fill: $pure-white;
+        }
+        .button-close {
+            width: 20px;
+            height: 10px;
+
+            :deep(path) {
+                fill: $pure-white;
+            }
+        }
+    }
+
+    // Hovers
+    @media #{$has-hover} {
+        // FTVA Hover state
+        &.ftva:hover {
+            :deep(.block-tag) {
+                border-color: $accent-blue;
+                background-color: $accent-blue;
+
+                .label {
+                    color: $pure-white;
+                }
+            }
+
+            :deep(path.svg__fill--medium-grey) {
+                fill: $pure-white;
+            }
+        }
+    }
+}

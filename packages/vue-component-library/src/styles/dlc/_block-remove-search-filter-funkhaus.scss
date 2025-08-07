@@ -1,0 +1,41 @@
+.dlc.block-remove-search-filter {
+    --transition-duration: 0.2s;
+    padding: 0px;
+
+    // X Icon
+    .button-close {
+        opacity: 0;
+        width: 0;
+        margin-left: -8px;
+
+        transition: opacity var(--transition-duration) ease-in-out,
+            width var(--transition-duration) ease-in-out,
+            margin-left var(--transition-duration) ease-in-out;
+
+        :deep(svg) {
+            margin-top: 3px;
+        }
+        :deep(path) {
+            transition: fill var(--transition-duration) ease-in-out;
+        }
+    }
+
+    :deep(.block-tag) {
+        height: 36px;
+    }
+
+    // Selected state
+    &.is-selected {
+        .button-close {
+            opacity: 1;
+
+            width: 15px;
+            height: 15px;
+            margin-left: 0;
+
+            :deep(path) {
+                fill: $subtitle-grey;
+            }
+        }
+    }
+}
