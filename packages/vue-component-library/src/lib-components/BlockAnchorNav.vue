@@ -22,9 +22,18 @@ const props = withDefaults(defineProps<BlockAnchorNavProps>(), {
 })
 
 // Methods
-const isRouteLike = (to: string) =>
-    to.startsWith("#") || to.startsWith("/") || /^[a-zA-Z][\w+.-]*:/.test(to)
-
+const isRouteLike = (to: string) => {
+    // Allow local anchors and routes
+    if (to.startsWith("#") || to.startsWith("/")) return true
+    // Allow only safe protocols
+    const SAFE_PROTOCOLS = ["http:", "https:", "mailto:", "tel:"]
+    try {
+        const url = new URL(to, "http://dummy.base") // base needed for relative URLs
+        return SAFE_PROTOCOLS.includes(url.protocol)
+    } catch {
+        return false
+    }
+}
 // Computeds
 const sanitizedTitle = computed(() => props.title?.trim() ?? "")
 
@@ -37,8 +46,8 @@ const sanitizedItems = computed<BlockAnchorNavItem[]>(() => {
 
     for (let i = 0; i < props.items.length; i++) {
         const raw = props.items[i] as any
-        const label = String(raw?.label ?? "").trim()
-        const to = String(raw?.to ?? "").trim()
+        const label = typeof raw?.label === "string" ? raw.label.trim() : ""
+        const to = typeof raw?.to === "string" ? raw.to.trim() : ""
 
         // Skip if label or to is missing or invalid
         if (!label || !to || !isRouteLike(to)) {
@@ -55,7 +64,7 @@ const hasItems = computed(() => sanitizedItems.value.length > 0)
 </script>
 
 <template>
-    <nav class="block-anchor-nav" :aria-labelledby="sanitizedTitle">
+    <nav class="block-anchor-nav">
         <h3 v-if="hasTitle" class="title">{{ sanitizedTitle }}</h3>
 
         <Divider v-if="hasTitle && hasItems" class="divider" />
