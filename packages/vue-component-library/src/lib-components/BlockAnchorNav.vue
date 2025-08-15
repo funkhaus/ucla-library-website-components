@@ -28,7 +28,7 @@ const isRouteLike = (to: string) =>
 // Computeds
 const sanitizedTitle = computed(() => props.title?.trim() ?? "")
 
-const items = computed<BlockAnchorNavItem[]>(() => {
+const sanitizedItems = computed<BlockAnchorNavItem[]>(() => {
     if (!Array.isArray(props.items)) {
         return []
     }
@@ -51,7 +51,7 @@ const items = computed<BlockAnchorNavItem[]>(() => {
 })
 
 const hasTitle = computed(() => sanitizedTitle.value.length > 0)
-const hasItems = computed(() => items.value.length > 0)
+const hasItems = computed(() => sanitizedItems.value.length > 0)
 </script>
 
 <template>
@@ -61,10 +61,14 @@ const hasItems = computed(() => items.value.length > 0)
         <Divider v-if="hasTitle && hasItems" class="divider" />
 
         <ul v-if="hasItems" class="items">
-            <li v-for="item in items" :key="item.label" class="item">
+            <li
+                v-for="item in sanitizedItems"
+                :key="item?.label || ''"
+                class="item"
+            >
                 <Button
-                    :to="item.to || '#'"
-                    :text="item.label || 'Untitled'"
+                    :to="item?.to"
+                    :text="item?.label || ''"
                     :variant="ButtonVariant.Secondary"
                     isOutlined
                     class="button"
