@@ -1,0 +1,40 @@
+.block-anchor-nav {
+    .title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        color: var(--color-dark-grey);
+    }
+
+    .divider {
+        width: 100%;
+        max-width: unset;
+        margin: 8px 0 10px;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .item {
+        width: 100%;
+    }
+
+    // Breakpoints
+    @media #{$medium} {
+        .items {
+            flex-wrap: wrap;
+        }
+    }
+    @media #{$small} {
+        .items {
+            flex-wrap: nowrap;
+        }
+    }
+}
