@@ -1,7 +1,7 @@
 # UCLA Components list 
 
 ## Buttons and Interface
-[] ButtonIIIf ()
+[] ButtonIIIf (Svebor)
 - need to add this svg to The UCLA svg repo
 A single svg button, changes the color of letter svgs on hover
 
@@ -447,7 +447,6 @@ Sidebar or inline nav with jump links to sections on the same page.
 
 - title?: string (e.g. "Topics Covered")  
 - items: Array<{ label: string, href: string }>  
-- sticky?: boolean
 
 
 [] PanelAnchorNav (Luka)
@@ -516,5 +515,5 @@ An icon is shown on the right side of the screen; clicking it opens a side panel
 | BlockTitle                 |Luka       | ☐ Complete  |   [ ]   |                                |
 | BlockButtons               |Luka       | ☐ Complete  |   [ ]   |                                |
 | ContentSection             |Luka       | ☐ Complete  |   [ ]   |                                |
-| BlockAnchorNav             |           | ☐ Complete  |   [ ]   | aka: In-page TOC               |
-| PanelAnchorNav             |           | ☐ Complete  |   [ ]   | aka: In-page TOC               |
+| BlockAnchorNav             |Luka       | ☐ Complete  |   [ ]   |                                |
+| PanelAnchorNav             |Luka       | ☐ Complete  |   [ ]   |                                |
