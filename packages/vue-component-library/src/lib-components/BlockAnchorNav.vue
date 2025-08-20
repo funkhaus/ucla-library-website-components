@@ -4,16 +4,10 @@ import { computed } from "vue"
 import Button from "@/lib-components/Button.vue"
 import Divider from "@/lib-components/DividerGeneral.vue"
 import { ButtonVariant } from "@/types/components/button.types"
-
-// Types
-interface BlockAnchorNavItem {
-    label?: string
-    to?: string
-}
-interface BlockAnchorNavProps {
-    title?: string
-    items?: BlockAnchorNavItem[]
-}
+import {
+    type BlockAnchorNavProps,
+    type BlockAnchorNavItem,
+} from "@/types/components/blockAnchorNav.types"
 
 // Props
 const props = withDefaults(defineProps<BlockAnchorNavProps>(), {
