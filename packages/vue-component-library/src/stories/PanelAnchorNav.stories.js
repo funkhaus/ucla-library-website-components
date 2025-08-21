@@ -1,5 +1,5 @@
-import { ref } from "vue"
-import PanelAnchorNav from "@/lib-components/PanelAnchorNav.vue"
+import { ref } from 'vue'
+import PanelAnchorNav from '@/lib-components/PanelAnchorNav.vue'
 
 /**
  * A panel component that displays anchor navigation with toggle functionality.
@@ -14,98 +14,98 @@ import PanelAnchorNav from "@/lib-components/PanelAnchorNav.vue"
  * - <b>closePanel</b>: Emitted when the panel close button is clicked
  */
 export default {
-    title: "Funkhaus / Panel Anchor Nav",
-    component: PanelAnchorNav,
-    argTypes: {
-        title: {
-            control: "text",
-            description: "Title of the navigation block",
-        },
-        items: {
-            control: "object",
-            description:
-                "Array of navigation items with label and to properties",
-        },
-        isOpened: {
-            control: "boolean",
-            description: "Controls whether the panel is open or closed",
-        },
-        showOpenIconAlways: {
-            control: "boolean",
-            description:
-                "Controls whether the open icon is always visible or only after scrolling 100vh",
-        },
-        openPanel: {
-            action: "openPanel",
-            description: "Emitted when the panel open button is clicked",
-        },
-        closePanel: {
-            action: "closePanel",
-            description: "Emitted when the panel close button is clicked",
-        },
+  title: 'Funkhaus / Panel Anchor Nav',
+  component: PanelAnchorNav,
+  argTypes: {
+    title: {
+      control: 'text',
+      description: 'Title of the navigation block',
     },
-    decorators: [
-        () => ({
-            template: "<story />",
-        }),
-    ],
+    items: {
+      control: 'object',
+      description:
+                'Array of navigation items with label and to properties',
+    },
+    isOpened: {
+      control: 'boolean',
+      description: 'Controls whether the panel is open or closed',
+    },
+    showOpenIconAlways: {
+      control: 'boolean',
+      description:
+                'Controls whether the open icon is always visible or only after scrolling 100vh',
+    },
+    openPanel: {
+      action: 'openPanel',
+      description: 'Emitted when the panel open button is clicked',
+    },
+    closePanel: {
+      action: 'closePanel',
+      description: 'Emitted when the panel close button is clicked',
+    },
+  },
+  decorators: [
+    () => ({
+      template: '<story />',
+    }),
+  ],
 }
 
 function Template(args) {
-    return {
-        setup() {
-            const isOpened = ref(args.isOpened)
+  return {
+    setup() {
+      const isOpened = ref(args.isOpened)
 
-            const handleOpenPanel = () => {
-                isOpened.value = true
-                args.openPanel()
-            }
+      const handleOpenPanel = () => {
+        isOpened.value = true
+        args.openPanel()
+      }
 
-            const handleClosePanel = () => {
-                isOpened.value = false
-                args.closePanel()
-            }
+      const handleClosePanel = () => {
+        isOpened.value = false
+        args.closePanel()
+      }
 
-            return {
-                args,
-                isOpened,
-                handleOpenPanel,
-                handleClosePanel,
-            }
-        },
-        components: { PanelAnchorNav },
-        template: `
+      return {
+        args,
+        isOpened,
+        handleOpenPanel,
+        handleClosePanel,
+      }
+    },
+    components: { PanelAnchorNav },
+    template: `
             <div style="height: 300vh">
                 <PanelAnchorNav v-bind="args" :isOpened="isOpened" @openPanel="handleOpenPanel" @closePanel="handleClosePanel" />
             </div>
             `,
-    }
+  }
 }
 
 function RealPageTemplate(args) {
-    return {
-        setup() {
-            const isOpened = ref(args.isOpened)
+  return {
+    setup() {
+      const isOpened = ref(args.isOpened)
 
-            const handleOpenPanel = () => {
-                isOpened.value = true
-                args.openPanel()
-            }
+      const handleOpenPanel = () => {
+        isOpened.value = true
+        args.openPanel()
+      }
 
-            const handleClosePanel = () => {
-                isOpened.value = false
-                args.closePanel()
-            }
+      const handleClosePanel = () => {
+        isOpened.value = false
+        args.closePanel()
+      }
 
-            return {
-                args,
-                isOpened,
-                handleOpenPanel,
-                handleClosePanel,
-            }
-        },
-        components: { PanelAnchorNav },
-        template: `
+      return {
+        args,
+        isOpened,
+        handleOpenPanel,
+        handleClosePanel,
+      }
+    },
+    components: { PanelAnchorNav },
+    template: `
             <div class="real-page-scenario">
                 <!-- Header -->
                 <header class="page-header" id="top"> 
@@ -203,100 +203,100 @@ function RealPageTemplate(args) {
                 />
             </div>
         `,
-    }
+  }
 }
 
 // Normal usage stories
 export const Default = Template.bind({})
 Default.args = {
-    title: "Quick Navigation:",
-    items: [
-        { label: "Overview", to: "#overview" },
-        { label: "Features", to: "#features" },
-        { label: "Documentation", to: "#documentation" },
-        { label: "Contact", to: "#contact" },
-    ],
-    isOpened: false,
-    showOpenIconAlways: false,
+  title: 'Quick Navigation:',
+  items: [
+    { label: 'Overview', to: '#overview' },
+    { label: 'Features', to: '#features' },
+    { label: 'Documentation', to: '#documentation' },
+    { label: 'Contact', to: '#contact' },
+  ],
+  isOpened: false,
+  showOpenIconAlways: false,
 }
 
 export const Opened = Template.bind({})
 Opened.args = {
-    title: "Quick Navigation:",
-    items: [
-        { label: "Overview", to: "#overview" },
-        { label: "Features", to: "#features" },
-        { label: "Documentation", to: "#documentation" },
-        { label: "Contact", to: "#contact" },
-    ],
-    isOpened: true,
-    showOpenIconAlways: false,
+  title: 'Quick Navigation:',
+  items: [
+    { label: 'Overview', to: '#overview' },
+    { label: 'Features', to: '#features' },
+    { label: 'Documentation', to: '#documentation' },
+    { label: 'Contact', to: '#contact' },
+  ],
+  isOpened: true,
+  showOpenIconAlways: false,
 }
 
 // Open icon behavior variations
 export const OpenIconAlwaysVisible = Template.bind({})
 OpenIconAlwaysVisible.args = {
-    title: "Always Visible Navigation:",
-    items: [
-        { label: "Overview", to: "#overview" },
-        { label: "Features", to: "#features" },
-        { label: "Documentation", to: "#documentation" },
-        { label: "Contact", to: "#contact" },
-    ],
-    isOpened: false,
-    showOpenIconAlways: true,
+  title: 'Always Visible Navigation:',
+  items: [
+    { label: 'Overview', to: '#overview' },
+    { label: 'Features', to: '#features' },
+    { label: 'Documentation', to: '#documentation' },
+    { label: 'Contact', to: '#contact' },
+  ],
+  isOpened: false,
+  showOpenIconAlways: true,
 }
 
 export const OpenIconOnScroll = Template.bind({})
 OpenIconOnScroll.args = {
-    title: "Scroll-Based Navigation:",
-    items: [
-        { label: "Overview", to: "#overview" },
-        { label: "Features", to: "#features" },
-        { label: "Documentation", to: "#documentation" },
-        { label: "Contact", to: "#contact" },
-    ],
-    isOpened: false,
-    showOpenIconAlways: false,
+  title: 'Scroll-Based Navigation:',
+  items: [
+    { label: 'Overview', to: '#overview' },
+    { label: 'Features', to: '#features' },
+    { label: 'Documentation', to: '#documentation' },
+    { label: 'Contact', to: '#contact' },
+  ],
+  isOpened: false,
+  showOpenIconAlways: false,
 }
 
 export const RealPageWithManySections = RealPageTemplate.bind({})
 RealPageWithManySections.args = {
-    title: "Complete Guide:",
-    items: [
-        { label: "Introduction", to: "#introduction" },
-        { label: "Getting Started", to: "#getting-started" },
-        { label: "Account Setup", to: "#account-setup" },
-        { label: "First Steps", to: "#first-steps" },
-        { label: "Searching the Library", to: "#searching" },
-        { label: "Basic Search", to: "#basic-search" },
-        { label: "Advanced Search", to: "#advanced-search" },
-        { label: "Databases and Journals", to: "#databases" },
-        { label: "Popular Databases", to: "#popular-databases" },
-        { label: "Journal Access", to: "#journal-access" },
-        { label: "Special Collections", to: "#special-collections" },
-        { label: "Rare Books", to: "#rare-books" },
-        { label: "Archives", to: "#archives" },
-        { label: "Library Services", to: "#services" },
-        { label: "Research Support", to: "#research-support" },
-        { label: "Technology Services", to: "#technology-services" },
-        { label: "Library Locations", to: "#locations" },
-        { label: "Powell Library", to: "#powell-library" },
-        { label: "Charles E. Young Research Library", to: "#charles-young" },
-        { label: "Getting Help", to: "#help" },
-        { label: "Ask a Librarian", to: "#ask-librarian" },
-        { label: "Research Guides", to: "#research-guides" },
-        { label: "Contact Information", to: "#contact" },
-        { label: "General Inquiries", to: "#general-inquiries" },
-        { label: "Hours", to: "#hours" },
-        { label: "Back to Top", to: "#top" },
-    ],
-    isOpened: false,
-    showOpenIconAlways: false,
+  title: 'Complete Guide:',
+  items: [
+    { label: 'Introduction', to: '#introduction' },
+    { label: 'Getting Started', to: '#getting-started' },
+    { label: 'Account Setup', to: '#account-setup' },
+    { label: 'First Steps', to: '#first-steps' },
+    { label: 'Searching the Library', to: '#searching' },
+    { label: 'Basic Search', to: '#basic-search' },
+    { label: 'Advanced Search', to: '#advanced-search' },
+    { label: 'Databases and Journals', to: '#databases' },
+    { label: 'Popular Databases', to: '#popular-databases' },
+    { label: 'Journal Access', to: '#journal-access' },
+    { label: 'Special Collections', to: '#special-collections' },
+    { label: 'Rare Books', to: '#rare-books' },
+    { label: 'Archives', to: '#archives' },
+    { label: 'Library Services', to: '#services' },
+    { label: 'Research Support', to: '#research-support' },
+    { label: 'Technology Services', to: '#technology-services' },
+    { label: 'Library Locations', to: '#locations' },
+    { label: 'Powell Library', to: '#powell-library' },
+    { label: 'Charles E. Young Research Library', to: '#charles-young' },
+    { label: 'Getting Help', to: '#help' },
+    { label: 'Ask a Librarian', to: '#ask-librarian' },
+    { label: 'Research Guides', to: '#research-guides' },
+    { label: 'Contact Information', to: '#contact' },
+    { label: 'General Inquiries', to: '#general-inquiries' },
+    { label: 'Hours', to: '#hours' },
+    { label: 'Back to Top', to: '#top' },
+  ],
+  isOpened: false,
+  showOpenIconAlways: false,
 }
 
 // Add CSS for real page scenario
-const style = document.createElement("style")
+const style = document.createElement('style')
 style.textContent = `
 .real-page-scenario {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
