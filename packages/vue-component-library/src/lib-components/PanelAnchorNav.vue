@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Imports
-import { computed, watch, onUnmounted } from "vue"
+import { computed, watch, onUnmounted, ref, onMounted } from "vue"
 import BlockAnchorNav from "./BlockAnchorNav.vue"
 import SvgIconClose from "ucla-library-design-tokens/assets/svgs/icon-close.svg"
 import SvgIconFilter from "ucla-library-design-tokens/assets/svgs/icon-dlc-filter.svg"
@@ -8,6 +8,7 @@ import { type BlockAnchorNavProps } from "@/types/components/blockAnchorNav.type
 
 interface PanelAnchorNavProps extends BlockAnchorNavProps {
     isOpened: boolean
+    showOpenIconAlways?: boolean
 }
 
 // Emits
@@ -16,7 +17,11 @@ const emit = defineEmits(["closePanel", "openPanel"])
 // Props
 const props = withDefaults(defineProps<PanelAnchorNavProps>(), {
     isOpened: false,
+    showOpenIconAlways: true,
 })
+
+// Data
+const hasScrolled = ref(false)
 
 // Methods
 const openPanel = () => {
@@ -26,12 +31,21 @@ const closePanel = () => {
     emit("closePanel")
 }
 
+// Body scroll lock methods
 const lockBodyScroll = () => {
     document.documentElement.style.overflow = "hidden"
 }
 
 const unlockBodyScroll = () => {
     document.documentElement.style.overflow = ""
+}
+
+// Scroll detection
+const handleScroll = () => {
+    if (!props.showOpenIconAlways) {
+        // Show open icon after scrolling 50% of the viewport height
+        hasScrolled.value = window.scrollY >= window.innerHeight * 0.5
+    }
 }
 
 // Watchers
@@ -47,14 +61,25 @@ watch(
 )
 
 // Lifecycle
+onMounted(() => {
+    if (!props.showOpenIconAlways) {
+        window.addEventListener("scroll", handleScroll)
+        handleScroll() // Check initial scroll position
+    }
+})
+
 onUnmounted(() => {
     unlockBodyScroll()
+    if (!props.showOpenIconAlways) {
+        window.removeEventListener("scroll", handleScroll)
+    }
 })
 
 // Computed
 const classes = computed(() => [
     "panel-anchor-nav",
     { "is-opened": props.isOpened },
+    { "show-open-icon": props.showOpenIconAlways || hasScrolled.value },
 ])
 </script>
 

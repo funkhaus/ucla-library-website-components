@@ -30,6 +30,11 @@ export default {
             control: "boolean",
             description: "Controls whether the panel is open or closed",
         },
+        showOpenIconAlways: {
+            control: "boolean",
+            description:
+                "Controls whether the open icon is always visible or only after scrolling 100vh",
+        },
         openPanel: {
             action: "openPanel",
             description: "Emitted when the panel open button is clicked",
@@ -69,8 +74,11 @@ function Template(args) {
             }
         },
         components: { PanelAnchorNav },
-        template:
-            '<PanelAnchorNav v-bind="args" :isOpened="isOpened" @openPanel="handleOpenPanel" @closePanel="handleClosePanel" />',
+        template: `
+            <div style="height: 300vh">
+                <PanelAnchorNav v-bind="args" :isOpened="isOpened" @openPanel="handleOpenPanel" @closePanel="handleClosePanel" />
+            </div>
+            `,
     }
 }
 
@@ -209,6 +217,7 @@ Default.args = {
         { label: "Contact", to: "#contact" },
     ],
     isOpened: false,
+    showOpenIconAlways: false,
 }
 
 export const Opened = Template.bind({})
@@ -221,6 +230,34 @@ Opened.args = {
         { label: "Contact", to: "#contact" },
     ],
     isOpened: true,
+    showOpenIconAlways: false,
+}
+
+// Open icon behavior variations
+export const OpenIconAlwaysVisible = Template.bind({})
+OpenIconAlwaysVisible.args = {
+    title: "Always Visible Navigation:",
+    items: [
+        { label: "Overview", to: "#overview" },
+        { label: "Features", to: "#features" },
+        { label: "Documentation", to: "#documentation" },
+        { label: "Contact", to: "#contact" },
+    ],
+    isOpened: false,
+    showOpenIconAlways: true,
+}
+
+export const OpenIconOnScroll = Template.bind({})
+OpenIconOnScroll.args = {
+    title: "Scroll-Based Navigation:",
+    items: [
+        { label: "Overview", to: "#overview" },
+        { label: "Features", to: "#features" },
+        { label: "Documentation", to: "#documentation" },
+        { label: "Contact", to: "#contact" },
+    ],
+    isOpened: false,
+    showOpenIconAlways: false,
 }
 
 export const RealPageWithManySections = RealPageTemplate.bind({})
@@ -255,6 +292,7 @@ RealPageWithManySections.args = {
         { label: "Back to Top", to: "#top" },
     ],
     isOpened: false,
+    showOpenIconAlways: false,
 }
 
 // Add CSS for real page scenario

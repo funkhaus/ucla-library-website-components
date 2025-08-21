@@ -17,8 +17,8 @@
         left: 0;
         transform: translateY(-50%) translateX(-100%);
 
-        // Open Icon visible when panel is closed
-        opacity: 1;
+        // Open Icon hidden by default (when not show-open-icon)
+        opacity: 0;
         transition: opacity var(--transition-duration) ease-in-out
             var(--transition-duration);
 
@@ -112,6 +112,12 @@
         }
     }
 
+    // Show open icon when show-open-icon class is present
+    &.show-open-icon .icon-open {
+        opacity: 1;
+    }
+
+    // When panel is opened
     &.is-opened {
         transform: translateX(0);
         transition: transform 0s ease-in-out 0s;
