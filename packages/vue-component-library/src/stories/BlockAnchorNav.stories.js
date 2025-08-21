@@ -8,7 +8,7 @@ import BlockAnchorNav from '@/lib-components/BlockAnchorNav.vue'
  * - <b>items</b>: An array of objects containing label and to properties for navigation items
  */
 export default {
-  title: 'Funkhaus / BlockAnchorNav',
+  title: 'Funkhaus / Block Anchor Nav',
   component: BlockAnchorNav,
   argTypes: {
     title: {

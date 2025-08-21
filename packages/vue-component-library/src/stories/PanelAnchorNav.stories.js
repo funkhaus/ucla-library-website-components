@@ -217,7 +217,6 @@ Default.args = {
     { label: 'Contact', to: '#contact' },
   ],
   isOpened: false,
-  showOpenIconAlways: false,
 }
 
 export const Opened = Template.bind({})
@@ -230,7 +229,6 @@ Opened.args = {
     { label: 'Contact', to: '#contact' },
   ],
   isOpened: true,
-  showOpenIconAlways: false,
 }
 
 // Open icon behavior variations
