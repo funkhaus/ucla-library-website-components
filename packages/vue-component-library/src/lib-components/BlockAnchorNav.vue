@@ -18,16 +18,6 @@ const props = withDefaults(defineProps<BlockAnchorNavProps>(), {
 
 const theme = useTheme()
 
-// Types
-interface BlockAnchorNavItem {
-  label?: string
-  to?: string
-}
-interface BlockAnchorNavProps {
-  title?: string
-  items?: BlockAnchorNavItem[]
-}
-
 // Methods
 function isRouteLike(to: string) {
   // Allow local anchors and routes
