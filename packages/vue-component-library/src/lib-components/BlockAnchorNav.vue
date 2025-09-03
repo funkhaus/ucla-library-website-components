@@ -8,12 +8,25 @@ import {
   type BlockAnchorNavItem,
   type BlockAnchorNavProps,
 } from '@/types/components/blockAnchorNav.types'
+import { useTheme } from '@/composables/useTheme'
 
 // Props
 const props = withDefaults(defineProps<BlockAnchorNavProps>(), {
   title: '',
   items: () => [],
 })
+
+const theme = useTheme()
+
+// Types
+interface BlockAnchorNavItem {
+  label?: string
+  to?: string
+}
+interface BlockAnchorNavProps {
+  title?: string
+  items?: BlockAnchorNavItem[]
+}
 
 // Methods
 function isRouteLike(to: string) {
@@ -24,13 +37,21 @@ function isRouteLike(to: string) {
   const SAFE_PROTOCOLS = ['http:', 'https:', 'mailto:', 'tel:']
   try {
     const url = new URL(to, 'http://dummy.base') // base needed for relative URLs
-    return SAFE_PROTOCOLS.includes(url.protocol)
+    // Check if it's a valid URL by ensuring it has a proper hostname or is a protocol-specific URL
+    const isValidUrl
+            = url.hostname !== 'dummy.base'
+            || SAFE_PROTOCOLS.some(protocol =>
+              to.startsWith(protocol.slice(0, -1))
+            )
+    return SAFE_PROTOCOLS.includes(url.protocol) && isValidUrl
   }
   catch {
     return false
   }
 }
 // Computeds
+const classes = computed(() => ['block-anchor-nav', theme?.value || ''])
+
 const sanitizedTitle = computed(() => props.title?.trim() ?? '')
 
 const sanitizedItems = computed<BlockAnchorNavItem[]>(() => {
@@ -58,7 +79,7 @@ const hasItems = computed(() => sanitizedItems.value.length > 0)
 </script>
 
 <template>
-  <nav class="block-anchor-nav">
+  <nav :class="classes">
     <h3 v-if="hasTitle" class="title">
       {{ sanitizedTitle }}
     </h3>

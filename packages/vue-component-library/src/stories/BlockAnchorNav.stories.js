@@ -1,3 +1,4 @@
+import { computed } from 'vue'
 import BlockAnchorNav from '@/lib-components/BlockAnchorNav.vue'
 
 /**
@@ -8,7 +9,7 @@ import BlockAnchorNav from '@/lib-components/BlockAnchorNav.vue'
  * - <b>items</b>: An array of objects containing label and to properties for navigation items
  */
 export default {
-  title: 'Funkhaus / Block Anchor Nav',
+  title: 'Funkhaus / Block Anchor Navigation',
   component: BlockAnchorNav,
   argTypes: {
     title: {
@@ -32,6 +33,11 @@ function Template(args) {
   return {
     setup() {
       return { args }
+    },
+    provide() {
+      return {
+        theme: computed(() => 'dlc'),
+      }
     },
     components: { BlockAnchorNav },
     template: '<BlockAnchorNav v-bind="args" />',
