@@ -1,3 +1,4 @@
+import { computed } from 'vue'
 import BlockAnchorNav from '@/lib-components/BlockAnchorNav.vue'
 
 /**
@@ -32,6 +33,11 @@ function Template(args) {
   return {
     setup() {
       return { args }
+    },
+    provide() {
+      return {
+        theme: computed(() => 'dlc'),
+      }
     },
     components: { BlockAnchorNav },
     template: '<BlockAnchorNav v-bind="args" />',
