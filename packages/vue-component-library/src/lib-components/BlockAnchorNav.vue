@@ -33,7 +33,13 @@ function isRouteLike(to: string) {
   const SAFE_PROTOCOLS = ['http:', 'https:', 'mailto:', 'tel:']
   try {
     const url = new URL(to, 'http://dummy.base') // base needed for relative URLs
-    return SAFE_PROTOCOLS.includes(url.protocol)
+    // Check if it's a valid URL by ensuring it has a proper hostname or is a protocol-specific URL
+    const isValidUrl
+            = url.hostname !== 'dummy.base'
+            || SAFE_PROTOCOLS.some(protocol =>
+              to.startsWith(protocol.slice(0, -1))
+            )
+    return SAFE_PROTOCOLS.includes(url.protocol) && isValidUrl
   }
   catch {
     return false
