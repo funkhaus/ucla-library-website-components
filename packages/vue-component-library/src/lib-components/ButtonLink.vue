@@ -38,6 +38,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  isSenary: {
+    type: Boolean,
+    default: false,
+  },
   isDownload: {
     type: Boolean,
     default: false,
@@ -70,13 +74,11 @@ const classes = computed(() => {
   return [
     'button-link',
     theme?.value || '',
-    props.isSecondary
-      ? 'is-secondary'
-      : props.isTertiary
-        ? 'is-tertiary'
-        : props.isQuaternary
-          ? 'is-quaternary'
-          : '',
+    { 'is-secondary': props.isSecondary },
+    { 'is-tertiary': props.isTertiary },
+    { 'is-quaternary': props.isQuaternary },
+    { 'is-senary': props.isSenary },
+    { 'is-download': props.isDownload }
   ]
 })
 
@@ -132,10 +134,7 @@ const parsedIconName = computed(() => {
   </SmartLink>
 </template>
 
-<style
-  lang="scss"
-  scoped
->
+<style lang="scss" scoped>
 @import "@/styles/default/_button-link.scss";
 @import "@/styles/ftva/_button-link.scss";
 </style>
