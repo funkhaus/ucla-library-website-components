@@ -1,0 +1,232 @@
+{
+  "pnx": {
+    "delivery": {
+      "fulltext": [
+        "no_fulltext"
+      ],
+      "delcategory": [
+        "Remote Search Resource"
+      ]
+    },
+    "links": {
+      "backlink": [
+        "$$Uhttps://hal.science/hal-02112224$$DView record in HAL$$Hfree_for_read"
+      ],
+      "thumbnail": [
+        "$$Tsyndetics_thumb_exl"
+      ],
+      "openurl": [
+        "$$Topenurl_article"
+      ]
+    },
+    "search": {
+      "fulltext": [
+        "false"
+      ],
+      "orcidid": [
+        "https://orcid.org/0000-0003-0889-2237",
+        "https://orcid.org/0000-0002-7973-7421",
+        "https://orcid.org/0000-0002-9601-1825",
+        "https://orcid.org/0000-0002-7973-7421",
+        "https://orcid.org/0000-0003-0889-2237",
+        "https://orcid.org/0000-0002-9601-1825"
+      ],
+      "creator": [
+        "Martinez, E.",
+        "Meunier, B.",
+        "Pla, D.",
+        "Rodriguez-Lamas, R.",
+        "Burriel, Mónica",
+        "Jiménez, Carmen",
+        "Boudard, M.",
+        "Rueff, J.P.",
+        "Yamashita, Y.",
+        "Ueda, S.",
+        "Renault, O."
+      ],
+      "title": [
+        "Etude de mémoires résistives à base de LMO par HAXPES operando"
+      ],
+      "startdate": [
+        "2019"
+      ],
+      "enddate": [
+        "2019"
+      ],
+      "recordtype": [
+        "conference_proceeding"
+      ],
+      "creationdate": [
+        "2019"
+      ],
+      "creatorcontrib": [
+        "Martinez, E.",
+        "Meunier, B.",
+        "Pla, D.",
+        "Rodriguez-Lamas, R.",
+        "Burriel, Mónica",
+        "Jiménez, Carmen",
+        "Boudard, M.",
+        "Rueff, J.P.",
+        "Yamashita, Y.",
+        "Ueda, S.",
+        "Renault, O."
+      ],
+      "rsrctype": [
+        "conference_proceeding"
+      ],
+      "recordid": [
+        "eNrjZHB0LSlNSVUAotzDK3PzM4tSixWKDq8sziwuySwDsg8vUEhKLAYr8PH1VyhILFLwcIwIcA1WyC9ILUrMS8nnYWBNS8wpTuWF0twMmm6uIc4euhmJOfEFRZm5iUWV8fmJmfEejj7xIDEDI0NDIyMjkzJDA1LUAgDqSDhl"
+      ],
+      "scope": [
+        "1XC"
+      ]
+    },
+    "display": {
+      "creator": [
+        "Martinez, E. ; Meunier, B. ; Pla, D. ; Rodriguez-Lamas, R. ; Burriel, Mónica ; Jiménez, Carmen ; Boudard, M. ; Rueff, J.P. ; Yamashita, Y. ; Ueda, S. ; Renault, O."
+      ],
+      "title": [
+        "Etude de mémoires résistives à base de LMO par HAXPES operando"
+      ],
+      "language": [
+        "fre"
+      ],
+      "creationdate": [
+        "2019"
+      ],
+      "type": [
+        "conference_proceeding"
+      ],
+      "rights": [
+        "Distributed under a Creative Commons Attribution 4.0 International License"
+      ],
+      "keyword": [
+        "Chemical Sciences ;  Material chemistry"
+      ]
+    },
+    "facets": {
+      "language": [
+        "fre"
+      ],
+      "creationdate": [
+        "2019"
+      ],
+      "creatorcontrib": [
+        "Martinez, E.",
+        "Meunier, B.",
+        "Pla, D.",
+        "Rodriguez-Lamas, R.",
+        "Burriel, Mónica",
+        "Jiménez, Carmen",
+        "Boudard, M.",
+        "Rueff, J.P.",
+        "Yamashita, Y.",
+        "Ueda, S.",
+        "Renault, O."
+      ],
+      "prefilter": [
+        "conference_proceedings"
+      ],
+      "rsrctype": [
+        "conference_proceedings"
+      ],
+      "collection": [
+        "Hyper Article en Ligne (HAL)"
+      ],
+      "frbrgroupid": [
+        "cdi_FETCH-hal_primary_oai_HAL_hal_02112224v10"
+      ],
+      "frbrtype": [
+        "5"
+      ]
+    },
+    "addata": {
+      "format": [
+        "book"
+      ],
+      "orcidid": [
+        "https://orcid.org/0000-0003-0889-2237",
+        "https://orcid.org/0000-0002-7973-7421",
+        "https://orcid.org/0000-0002-9601-1825",
+        "https://orcid.org/0000-0002-7973-7421",
+        "https://orcid.org/0000-0003-0889-2237",
+        "https://orcid.org/0000-0002-9601-1825"
+      ],
+      "genre": [
+        "proceeding"
+      ],
+      "ristype": [
+        "CONF"
+      ],
+      "au": [
+        "Martinez, E.",
+        "Meunier, B.",
+        "Pla, D.",
+        "Rodriguez-Lamas, R.",
+        "Burriel, Mónica",
+        "Jiménez, Carmen",
+        "Boudard, M.",
+        "Rueff, J.P.",
+        "Yamashita, Y.",
+        "Ueda, S.",
+        "Renault, O."
+      ],
+      "atitle": [
+        "Etude de mémoires résistives à base de LMO par HAXPES operando"
+      ],
+      "date": [
+        "2019"
+      ],
+      "risdate": [
+        "2019"
+      ]
+    },
+    "sort": {
+      "title": [
+        "Etude de mémoires résistives à base de LMO par HAXPES operando"
+      ],
+      "creationdate": [
+        "2019"
+      ],
+      "author": [
+        "Martinez, E. ; Meunier, B. ; Pla, D. ; Rodriguez-Lamas, R. ; Burriel, Mónica ; Jiménez, Carmen ; Boudard, M. ; Rueff, J.P. ; Yamashita, Y. ; Ueda, S. ; Renault, O."
+      ]
+    },
+    "control": {
+      "recordtype": [
+        "conference_proceeding"
+      ],
+      "sourceid": [
+        "hal"
+      ],
+      "recordid": [
+        "cdi_hal_primary_oai_HAL_hal_02112224v1"
+      ],
+      "addsrcrecordid": [
+        "eNrjZHB0LSlNSVUAotzDK3PzM4tSixWKDq8sziwuySwDsg8vUEhKLAYr8PH1VyhILFLwcIwIcA1WyC9ILUrMS8nnYWBNS8wpTuWF0twMmm6uIc4euhmJOfEFRZm5iUWV8fmJmfEejj7xIDEDI0NDIyMjkzJDA1LUAgDqSDhl"
+      ],
+      "sourcerecordid": [
+        "oai_HAL_hal_02112224v1"
+      ],
+      "originalsourceid": [
+        "FETCH-hal_primary_oai_HAL_hal_02112224v10"
+      ],
+      "sourcetype": [
+        "Open Access Repository"
+      ],
+      "sourceformat": [
+        "XML"
+      ],
+      "sourcesystem": [
+        "Other"
+      ],
+      "iscdi": [
+        "true"
+      ],
+      "score": [
+        "0.0017058329"
+      ]
+    }
+  }
+}
