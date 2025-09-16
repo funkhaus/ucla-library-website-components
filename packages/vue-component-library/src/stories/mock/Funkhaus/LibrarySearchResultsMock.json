@@ -1,0 +1,1928 @@
+[
+  {
+    "beaconO22": "1200",
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9996957614606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / Brian J. Robb."
+        ],
+        "subject": [
+          "Science fiction films -- History and criticism",
+          "Motion pictures",
+          "Science fiction films",
+          "Moon -- In motion pictures",
+          "Lune -- Au cin\u00e9ma",
+          "Moon",
+          "Moon (Motion picture)",
+          "Jones, Duncan, 1971-"
+        ],
+        "format": [
+          "115 pages ; 19 cm."
+        ],
+        "identifier": [
+          "$$CISBN$$V9781800856424 (hbk.);$$CISBN$$V1800856423 (hbk.);$$CISBN$$V9781800856431 (pbk.);$$CISBN$$V1800856431 (pbk.);$$COCLC$$V(OCoLC)1338671001;$$COCLC$$V(OCoLC)on1338671001"
+        ],
+        "creationdate": [
+          "2023"
+        ],
+        "creator": [
+          "Robb, Brian J., author.$$QRobb, Brian J."
+        ],
+        "publisher": [
+          "Liverpool : Auteur"
+        ],
+        "mms": [
+          "9996957614606533"
+        ],
+        "series": [
+          "Constellations$$QConstellations",
+          "Constellations (Leighton Buzzard, England)$$QConstellations (Leighton Buzzard, England)"
+        ],
+        "genre": [
+          "Criticism, interpretation, etc"
+        ],
+        "place": [
+          "Liverpool :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "Includes bibliographical references."
+        ],
+        "lds13": [
+          "Constellations"
+        ],
+        "lds17": [
+          "(OCoLC)1338671001",
+          "(OCoLC)on1338671001"
+        ],
+        "lds18": [
+          "Liverpool : Auteur, 2023."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9996957614606533"
+        ],
+        "recordid": [
+          "alma9996957614606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "on1338671001"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.17022942"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDAuthor": [
+          "n95003109"
+        ],
+        "originatingSystemIDSubject": [
+          "no2010029958"
+        ],
+        "aulast": [
+          "Robb"
+        ],
+        "aufirst": [
+          "Brian J."
+        ],
+        "auinit": [
+          "B"
+        ],
+        "au": [
+          "Robb, Brian J."
+        ],
+        "creatorfull": [
+          "$$NRobb, Brian J.$$LRobb$$FBrian J.$$Rauthor"
+        ],
+        "date": [
+          "2023"
+        ],
+        "isbn": [
+          "9781800856424",
+          "1800856423",
+          "9781800856431",
+          "1800856431"
+        ],
+        "notes": [
+          "Includes bibliographical references."
+        ],
+        "cop": [
+          "Liverpool"
+        ],
+        "pub": [
+          "Auteur"
+        ],
+        "oclcid": [
+          "(ocolc)1338671001",
+          "(ocolc)on1338671001"
+        ],
+        "seriestitle": [
+          "Constellations"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Robb, Brian J., author."
+        ],
+        "creationdate": [
+          "2023"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9015507537463444313"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9917211873606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / by Marguerite Harris."
+        ],
+        "subject": [
+          "American poetry -- 20th century",
+          "Literature, Experimental -- United States",
+          "Bohemianism -- United States",
+          "American poetry",
+          "Bohemianism",
+          "Literature, Experimental",
+          "United States",
+          "1900-1999"
+        ],
+        "format": [
+          "6 unnumbered pages ; 15 cm"
+        ],
+        "identifier": [
+          "$$COCLC$$V(OCoLC)02859802;$$COCLC$$V(OCoLC)ocm02859802 "
+        ],
+        "creationdate": [
+          "1965"
+        ],
+        "lds20": [
+          "1721187-ucladb"
+        ],
+        "creator": [
+          "Harris, Marguerite.$$QHarris, Marguerite."
+        ],
+        "publisher": [
+          "Cleveland, Ohio : 7 Flowers Press"
+        ],
+        "mms": [
+          "9917211873606533"
+        ],
+        "contributor": [
+          "7 Flowers Press.$$Q7 Flowers Press.",
+          "D.a. levy and Family Archive.$$QD.a. levy and Family Archive."
+        ],
+        "place": [
+          "Cleveland, Ohio :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "<i>Work referenced in:</i> Taylor & Horvath. Looking for d.a. levy ... the d.a. levy bibliography, P-72",
+          "\"200 copies, first printing.\"",
+          "Poems."
+        ],
+        "lds17": [
+          "(CU_SB)990010432230203776-01ucsb_inst",
+          "990010432230203776",
+          "(CLU)1721187-ucladb-Voyager",
+          "(OCoLC)02859802",
+          "(OCoLC)ocm02859802 "
+        ],
+        "lds18": [
+          "Cleveland, Ohio : 7 Flowers Press, 1965."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9917211873606533"
+        ],
+        "recordid": [
+          "alma9917211873606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "990010432230203776-01ucsb_inst"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.17022942"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDAuthor": [
+          "n50023855"
+        ],
+        "aulast": [
+          "Harris"
+        ],
+        "aufirst": [
+          "Marguerite."
+        ],
+        "auinit": [
+          "M"
+        ],
+        "au": [
+          "Harris, Marguerite."
+        ],
+        "addau": [
+          "7 Flowers Press.",
+          "D.a. levy and Family Archive."
+        ],
+        "creatorfull": [
+          "$$NHarris, Marguerite.$$LHarris$$FMarguerite.$$Rauthor"
+        ],
+        "date": [
+          "1965"
+        ],
+        "cop": [
+          "Cleveland, Ohio"
+        ],
+        "pub": [
+          "7 Flowers Press"
+        ],
+        "oclcid": [
+          "(ocolc)2859802"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Harris, Marguerite."
+        ],
+        "creationdate": [
+          "1965"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9026731907624288681"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9964029603606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / Stewart Ross."
+        ],
+        "subject": [
+          "Space flight to the moon -- Juvenile literature",
+          "Lunar exploration",
+          "Space flight to the moon",
+          "Apollo project",
+          "Moon -- Juvenile literature",
+          "Moon -- Exploration -- Juvenile literature",
+          "Moon",
+          "Moon -- Exploration",
+          "Project Apollo (U.S.) -- Juvenile literature",
+          "Project Apollo (U.S.)"
+        ],
+        "format": [
+          "128 pages : color illustrations ; 28 cm"
+        ],
+        "identifier": [
+          "$$CISBN$$V9780545127325;$$CISBN$$V0545127327;$$COCLC$$V(OCoLC)264041902;$$COCLC$$V(OCoLC)ocn264041902"
+        ],
+        "creationdate": [
+          "2009"
+        ],
+        "lds20": [
+          "6402960-ucladb"
+        ],
+        "creator": [
+          "Ross, Stewart.$$QRoss, Stewart."
+        ],
+        "publisher": [
+          "New York : Scholastic"
+        ],
+        "description": [
+          "This special book written to commemorate the 40th anniversary of the moon landing combines the story of the preparation, journey, arrival, and landing of Apollo 11 with scientific information about the Moon and its influence on our culture through music, theater, literature, and more."
+        ],
+        "mms": [
+          "9964029603606533"
+        ],
+        "edition": [
+          "1st American ed."
+        ],
+        "contents": [
+          "Contents: Countdown ; Liftoff! ; The Moon ; Moonlight ; How it All Began ; Ancient Explanations ; Toward Science ; Into Orbit! ; What's in a Name? ; Spacemen ; Muslim Foundations ; Moon Gods ; Moon Goddesses ; Moon Worship ; Science's Revolution ; Moon Probes ; Apollo -- The Tragedy ; Newton's Moon ; Hey Diddle Diddle! ; Man in the Moon ; Creation ; Moon Men! The Mighty Saturn ; Moon Movies ; Moon Horror ; On Target ; The Changing Moon ; Moonlit Love ; Eclipse ; The Pioneers ; Time and Tide ; Moon Music ; Zero Hour.",
+          "Contents: Moon Song ; Moon Matter ; Here We Come! ; The Eagle Has Landed! ; Moon Map ; The White Beauty ; One Small Step ; Dramatic Moon ; Lunar Atmosphere ; Men from Earth ; Lunar Gravity ; Lunacy ; Homeward Bound ; The Dark Side ; Splashdown! ; The Moon as a Symbol ; Art and Science ; Painted Moon ; Return to the Moon ; Living on the Moon ; Unseen Influence ; Lunar Dating ; Moonbeams ; Moon Info ; Moon Dates ; Moon Sites."
+        ],
+        "genre": [
+          "Juvenile works",
+          "Literature"
+        ],
+        "place": [
+          "New York :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "Originally published: Oxford [England] : Oxford University Press, 2009.",
+          "Includes index.",
+          "Includes bibliographical references (page 127) and index."
+        ],
+        "lds17": [
+          "(CLU)6402960-ucladb-Voyager",
+          "(OCoLC)264041902",
+          "(OCoLC)ocn264041902"
+        ],
+        "lds18": [
+          "New York : Scholastic, 2009."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9964029603606533"
+        ],
+        "recordid": [
+          "alma9964029603606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "6402960-ucladb"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.17022942"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDAuthor": [
+          "n85214926"
+        ],
+        "aulast": [
+          "Ross"
+        ],
+        "aufirst": [
+          "Stewart."
+        ],
+        "auinit": [
+          "S"
+        ],
+        "au": [
+          "Ross, Stewart."
+        ],
+        "creatorfull": [
+          "$$NRoss, Stewart.$$LRoss$$FStewart.$$Rauthor"
+        ],
+        "date": [
+          "2009 - 2009",
+          "2009"
+        ],
+        "isbn": [
+          "9780545127325",
+          "0545127327"
+        ],
+        "notes": [
+          "Includes bibliographical references (page 127) and index."
+        ],
+        "abstract": [
+          "This special book written to commemorate the 40th anniversary of the moon landing combines the story of the preparation, journey, arrival, and landing of Apollo 11 with scientific information about the Moon and its influence on our culture through music, theater, literature, and more."
+        ],
+        "cop": [
+          "New York"
+        ],
+        "pub": [
+          "Scholastic"
+        ],
+        "oclcid": [
+          "(ocolc)264041902"
+        ],
+        "edition": [
+          "1st American ed."
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ],
+        "url": [
+          "http://www.mackin.com/BookPics/Book.aspx?isbn=9780545127325"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Ross, Stewart."
+        ],
+        "creationdate": [
+          "2009"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9052625277023165584"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9953681923606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / by Steve Tomecek ; illustrated by Liisa Chauncy Guida."
+        ],
+        "subject": [
+          "Juvenile works",
+          "Moon -- Juvenile literature",
+          "Moon"
+        ],
+        "format": [
+          "31 pages : color illustrations ; 24 x 29 cm."
+        ],
+        "identifier": [
+          "$$CLC$$V  2004008761;$$CISBN$$V0792251237;$$CISBN$$V9780792251231;$$CISBN$$V9780792283041 (lib. bdg.);$$CISBN$$V079228304X (lib. bdg.);$$CISBN$$V9781426302503 (pbk.);$$CISBN$$V1426302509 (pbk.);$$CISBN$$V1415577749 (BWI bound);$$CISBN$$V9781415577745;$$CISBN$$V9780329642167 Follett bdg;$$CISBN$$V0329642162 Follett bdg;$$COCLC$$V(OCoLC)54989104;$$COCLC$$V(OCoLC)ocm54989104 "
+        ],
+        "creationdate": [
+          "\u00a92005"
+        ],
+        "lds20": [
+          "5368192-ucladb"
+        ],
+        "creator": [
+          "Tomecek, Steve.$$QTomecek, Steve."
+        ],
+        "publisher": [
+          "Washington, D.C. : National Geographic Society"
+        ],
+        "description": [
+          "Introduces readers to facts and myths about the moon."
+        ],
+        "mms": [
+          "9953681923606533"
+        ],
+        "contributor": [
+          "Guida, Liisa Chauncy, illustrator.$$QGuida, Liisa Chauncy"
+        ],
+        "series": [
+          "Jump into science$$QJump into science",
+          "Jump into science.$$QJump into science."
+        ],
+        "genre": [
+          "Picture books for children 2005",
+          "Picture books",
+          "Juvenile works",
+          "Literature"
+        ],
+        "place": [
+          "Washington, D.C. :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds13": [
+          "Jump into science"
+        ],
+        "lds17": [
+          "(CLU)5368192-ucladb-Voyager",
+          "(OCoLC)54989104",
+          "(OCoLC)ocm54989104 "
+        ],
+        "lds18": [
+          "Washington, D.C. : National Geographic Society, \u00a92005."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9953681923606533"
+        ],
+        "recordid": [
+          "alma9953681923606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "5368192-ucladb"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.17022942"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDAuthor": [
+          "n94087629"
+        ],
+        "originatingSystemIDContributor": [
+          "n84057397"
+        ],
+        "aulast": [
+          "Tomecek"
+        ],
+        "aufirst": [
+          "Steve."
+        ],
+        "auinit": [
+          "S"
+        ],
+        "au": [
+          "Tomecek, Steve."
+        ],
+        "addau": [
+          "Guida, Liisa Chauncy"
+        ],
+        "creatorfull": [
+          "$$NTomecek, Steve.$$LTomecek$$FSteve.$$Rauthor"
+        ],
+        "contributorfull": [
+          "$$NGuida, Liisa Chauncy$$LGuida$$FLiisa Chauncy$$Rillustrator"
+        ],
+        "date": [
+          "2005",
+          "\u00a92005"
+        ],
+        "isbn": [
+          "0792251237",
+          "9780792251231",
+          "9780792283041",
+          "079228304X",
+          "9781426302503",
+          "1426302509",
+          "1415577749",
+          "9781415577745",
+          "9780329642167",
+          "0329642162"
+        ],
+        "abstract": [
+          "Introduces readers to facts and myths about the moon."
+        ],
+        "cop": [
+          "Washington, D.C"
+        ],
+        "pub": [
+          "National Geographic Society"
+        ],
+        "oclcid": [
+          "(ocolc)54989104"
+        ],
+        "lccn": [
+          "2004008761"
+        ],
+        "seriestitle": [
+          "Jump into science"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Tomecek, Steve."
+        ],
+        "creationdate": [
+          "2005"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9013388205411608010"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9996773121406533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "score"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / Evan Blach\u00e9."
+        ],
+        "subject": [
+          "Choruses, Secular (Mixed voices, 4 parts), Unaccompanied"
+        ],
+        "format": [
+          "1 online resource (1 score (7 pages))"
+        ],
+        "identifier": [
+          "$$COCLC$$V(OCoLC)1163644816;$$COCLC$$V(OCoLC)on1163644816"
+        ],
+        "creationdate": [
+          "2020"
+        ],
+        "creator": [
+          "Blach\u00e9, Evan, composer.$$QBlach\u00e9, Evan"
+        ],
+        "publisher": [
+          "Los Angeles : UCLA Music Library"
+        ],
+        "description": [
+          "This music score was submitted for the Kaleidoscope 2020 Call for Scores, an open access collaboration with the UCLA Music Library."
+        ],
+        "mms": [
+          "9996773121406533"
+        ],
+        "contributor": [
+          "University of California, Los Angeles. Music Library.$$QUniversity of California, Los Angeles. Music Library."
+        ],
+        "ispartof": [
+          "Contained in (manifestation): Contemporary music score collection. Los Angeles : UCLA Music Library, [2018]-$$QContemporary music score collection.$$Z9993503063606533"
+        ],
+        "genre": [
+          "Scores"
+        ],
+        "place": [
+          "Los Angeles] :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "For SATB choir, unaccompanied."
+        ],
+        "lds12": [
+          "Open access Unrestricted online access star"
+        ],
+        "lds17": [
+          "(OCoLC)1163644816",
+          "(OCoLC)on1163644816"
+        ],
+        "lds18": [
+          "[Los Angeles] : UCLA Music Library, 2020."
+        ],
+        "lds30": [
+          "mixed chorus (1)"
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9996773121406533"
+        ],
+        "recordid": [
+          "alma9996773121406533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "on1163644816"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.13094571"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "aulast": [
+          "Blach\u00e9"
+        ],
+        "aufirst": [
+          "Evan"
+        ],
+        "auinit": [
+          "E"
+        ],
+        "au": [
+          "Blach\u00e9, Evan"
+        ],
+        "addau": [
+          "University of California, Los Angeles. Music Library."
+        ],
+        "creatorfull": [
+          "$$NBlach\u00e9, Evan$$LBlach\u00e9$$FEvan$$Rcomposer"
+        ],
+        "stitle": [
+          "Contemporary music score collection."
+        ],
+        "date": [
+          "2020"
+        ],
+        "abstract": [
+          "This music score was submitted for the Kaleidoscope 2020 Call for Scores, an open access collaboration with the UCLA Music Library."
+        ],
+        "cop": [
+          "Los Angeles"
+        ],
+        "pub": [
+          "UCLA Music Library"
+        ],
+        "oclcid": [
+          "(ocolc)1163644816",
+          "(ocolc)on1163644816"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "unknown"
+        ],
+        "ristype": [
+          "GEN"
+        ],
+        "btitle": [
+          "Moon"
+        ],
+        "openaccess": [
+          "true"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Blach\u00e9, Evan, composer."
+        ],
+        "creationdate": [
+          "2020"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9917059035506531"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9977537593606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "video"
+        ],
+        "language": [
+          "eng;fre"
+        ],
+        "title": [
+          "Moon  / Sony Pictures Classics ; Stage 6 ; a Liberty Films production in association with Xingu Films and Limelight ; story by Duncan Jones ; written by Nathan Parker ; producer, Stuart Fenegan ; producer, Trudie Styler ; director, Duncan Jones."
+        ],
+        "subject": [
+          "Astronauts -- Drama",
+          "Helium -- Drama",
+          "Lunar mining -- Drama",
+          "Headache -- Drama",
+          "Hallucinations and illusions -- Drama",
+          "Discoveries in geography -- Drama",
+          "Astronautas -- Teatro",
+          "Ingenier\u00eda de minas -- Teatro",
+          "Lunar mining",
+          "Astronauts",
+          "Discoveries in geography",
+          "Exploration of outer space",
+          "Hallucinations and illusions",
+          "Headache",
+          "Helium",
+          "Exploration -- Drama",
+          "Outer space -- Exploration -- Drama",
+          "Moon -- Drama",
+          "Moon",
+          "Outer space"
+        ],
+        "format": [
+          "1 videodisc (97 min.) : sound, color ; 4 3/4 in.",
+          "NTSC",
+          "video file",
+          "DVD video",
+          "region 1"
+        ],
+        "identifier": [
+          "$$CISBN$$V1435974743;$$CISBN$$V9781435974746;$$CISBN$$V1435983661;$$CISBN$$V9781435983663;$$CPUBNUM$$V31525;$$CPUBNUM$$V31527;$$COCLC$$V(OCoLC)456298221;$$COCLC$$V(OCoLC)ocn456298221"
+        ],
+        "creationdate": [
+          "2009"
+        ],
+        "lds20": [
+          "7753759-ucladb"
+        ],
+        "publisher": [
+          "Culver City, California : Sony Pictures Home Entertainment"
+        ],
+        "description": [
+          "Astronaut Sam Bell is completing a three-year contract with Lunar Industries to mine Earth's primary source of energy on the dark side of the moon: Helium-3. His declining health is causing headaches and hallucinations that lead to a near-fatal accident, rendering him unconscious. After recuperating, an unexpected discovery leads him to doubt his sanity, his identity, and the integrity of the company. Believing he is alone on his mission, his sole purpose is getting back home on his own."
+        ],
+        "mms": [
+          "9977537593606533"
+        ],
+        "contributor": [
+          "Sony Pictures Classics (Firm), presenter.$$QSony Pictures Classics (Firm)",
+          "Stage 6 Films, presenter.$$QStage 6 Films",
+          "Liberty Films, production company.$$QLiberty Films",
+          "Xingu Films, production company.$$QXingu Films",
+          "Limelight Productions, production company.$$QLimelight Productions",
+          "Sony Pictures Home Entertainment (Firm), publisher.$$QSony Pictures Home Entertainment (Firm)",
+          "Jones, Duncan, 1971- film director, screenwriter.$$QJones, Duncan",
+          "Parker, Nathan, screenwriter.$$QParker, Nathan",
+          "Fenegan, Stuart, film producer.$$QFenegan, Stuart",
+          "Styler, Trudie, film producer.$$QStyler, Trudie",
+          "Rockwell, Sam, actor.$$QRockwell, Sam",
+          "McElligott, Dominique, actor.$$QMcElligott, Dominique",
+          "Scodelario, Kaya, 1992- actor.$$QScodelario, Kaya",
+          "Wong, Benedict, actor.$$QWong, Benedict",
+          "Berry, Matt, 1974- actor.$$QBerry, Matt",
+          "Stewart, Malcolm, 1948- actor.$$QStewart, Malcolm",
+          "Spacey, Kevin, voice actor.$$QSpacey, Kevin",
+          "Shaw, Gary, 1963- director of photography.$$QShaw, Gary",
+          "Gaster, Nicolas, editor of moving image work.$$QGaster, Nicolas",
+          "Mansell, Clint, composer (expression)$$QMansell, Clint"
+        ],
+        "addtitle": [
+          "Container of (work): Moon (Motion picture)",
+          "Container of (expression): Moon (Motion picture). French."
+        ],
+        "genre": [
+          "DVD-Video discs",
+          "Feature films Great Britain",
+          "Drama",
+          "Adventure films",
+          "Science fiction films",
+          "Action and adventure films",
+          "Video recordings for the hearing impaired",
+          "Feature films",
+          "Fiction films",
+          "Science fiction Feature"
+        ],
+        "place": [
+          "Culver City, California :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "Anamorphic wide screen (2.40:1) presentation.",
+          "Originally released as a motion picture in 2009.",
+          "Special features: commentary with writer/director Duncan Jones, director of photography, concept designer and production designer; commentary with writer/director Duncan Jones and producer Stuart Fenegan; \"Whistle,\" a short film by Duncan Jones; the making of Moon; creating the visual effects; Science Center Q & A with director; filmmaker's Q & A at the Sundance Film Festival; theatrical trailer.",
+          "Director of photography, Gary Shaw ; editor, Nicolas Gaster ; music, Clint Mansell."
+        ],
+        "lds08": [
+          "Cast: Sam Rockwell, Dominique McElligott, Kaya Scodelario, Benedict Wong, Matt Berry, Malcolm Stewart, Kevin Spacey (voice)."
+        ],
+        "lds09": [
+          "In English or dubbed French, with optional English SDH or French subtitles."
+        ],
+        "lds12": [
+          "Educational and home use only."
+        ],
+        "lds16": [
+          "Hugo Award winner, Best Dramatic Presentation, Long Form, 2010"
+        ],
+        "lds17": [
+          "(CLU)7753759-ucladb-Voyager",
+          "(OCoLC)456298221",
+          "(OCoLC)ocn456298221"
+        ],
+        "lds18": [
+          "Culver City, California : Sony Pictures Home Entertainment, [2009]"
+        ],
+        "lds21": [
+          "2009----"
+        ],
+        "lds22": [
+          "United Kingdom"
+        ],
+        "lds25": [
+          "DVD, NTSC; region 1; Dolby Digital 5.1 surround, 2.0 stereo."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9977537593606533"
+        ],
+        "recordid": [
+          "alma9977537593606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "7753759-ucladb"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.13094571"
+        ],
+        "isDedup": true
+      },
+      "addata": {
+        "originatingSystemIDContributor": [
+          "no2005018149",
+          "no2008053520",
+          "no2010015529",
+          "no2010036735",
+          "no2010015589",
+          "no2010015536",
+          "no2017002356",
+          "no2009201707",
+          "no98115867",
+          "nb99046244",
+          "no93007294",
+          "no2010029958",
+          "no2001028514",
+          "no2002024243"
+        ],
+        "aulast": [
+          "Jones",
+          "Parker",
+          "Fenegan",
+          "Styler",
+          "Rockwell",
+          "McElligott",
+          "Scodelario",
+          "Wong",
+          "Berry",
+          "Stewart",
+          "Spacey",
+          "Shaw",
+          "Gaster",
+          "Mansell"
+        ],
+        "aufirst": [
+          "Duncan",
+          "Nathan",
+          "Stuart",
+          "Trudie",
+          "Sam",
+          "Dominique",
+          "Kaya",
+          "Benedict",
+          "Matt",
+          "Malcolm",
+          "Kevin",
+          "Gary",
+          "Nicolas",
+          "Clint"
+        ],
+        "auinit": [
+          "T",
+          "S",
+          "D",
+          "B",
+          "M",
+          "K",
+          "G",
+          "N",
+          "C"
+        ],
+        "addau": [
+          "Sony Pictures Classics (Firm), presenter.",
+          "Stage 6 Films, presenter.",
+          "Liberty Films, production company.",
+          "Xingu Films, production company.",
+          "Limelight Productions, production company.",
+          "Sony Pictures Home Entertainment (Firm), publisher.",
+          "Jones, Duncan",
+          "Parker, Nathan",
+          "Fenegan, Stuart",
+          "Styler, Trudie",
+          "Rockwell, Sam",
+          "McElligott, Dominique",
+          "Scodelario, Kaya",
+          "Wong, Benedict",
+          "Berry, Matt",
+          "Stewart, Malcolm",
+          "Spacey, Kevin",
+          "Shaw, Gary",
+          "Gaster, Nicolas",
+          "Mansell, Clint"
+        ],
+        "contributorfull": [
+          "$$NJones, Duncan$$LJones$$FDuncan$$Rcontributor",
+          "$$NParker, Nathan$$Rcontributor",
+          "$$NFenegan, Stuart$$Rcontributor",
+          "$$NStyler, Trudie$$Rcontributor",
+          "$$NRockwell, Sam$$Rcontributor",
+          "$$NMcElligott, Dominique$$Rcontributor",
+          "$$NScodelario, Kaya$$Rcontributor",
+          "$$NWong, Benedict$$Rcontributor",
+          "$$NBerry, Matt$$Rcontributor",
+          "$$NStewart, Malcolm$$Rcontributor",
+          "$$NSpacey, Kevin$$Rcontributor",
+          "$$NShaw, Gary$$Rcontributor",
+          "$$NGaster, Nicolas$$Rcontributor",
+          "$$NMansell, Clint$$Rcontributor"
+        ],
+        "date": [
+          "2009 - 2009",
+          "2009"
+        ],
+        "isbn": [
+          "1435974743",
+          "9781435974746",
+          "1435983661",
+          "9781435983663"
+        ],
+        "abstract": [
+          "Astronaut Sam Bell is completing a three-year contract with Lunar Industries to mine Earth's primary source of energy on the dark side of the moon: Helium-3. His declining health is causing headaches and hallucinations that lead to a near-fatal accident, rendering him unconscious. After recuperating, an unexpected discovery leads him to doubt his sanity, his identity, and the integrity of the company. Believing he is alone on his mission, his sole purpose is getting back home on his own."
+        ],
+        "cop": [
+          "Culver City, California"
+        ],
+        "pub": [
+          "Sony Pictures Home Entertainment"
+        ],
+        "oclcid": [
+          "(ocolc)456298221"
+        ],
+        "upcid": [
+          "043396323940",
+          "043396315273",
+          "043396315259"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "unknown"
+        ],
+        "ristype": [
+          "VIDEO"
+        ],
+        "btitle": [
+          "Moon"
+        ],
+        "url": [
+          "http://www.mrqe.com/movies/m100069865"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Jones, Duncan, 1971- film director, screenwriter."
+        ],
+        "creationdate": [
+          "2009"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9013201458405276302"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/99331213606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "journal"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon (West Hollywood, Calif.)"
+        ],
+        "subject": [
+          "Gay people -- Periodicals",
+          "Gay people"
+        ],
+        "format": [
+          "v. : ill. ; 28 cm."
+        ],
+        "identifier": [
+          "$$CLC$$Vsn 95018398 ;$$COCLC$$V(OCoLC)33900252;$$COCLC$$V(OCoLC)ocm33900252 "
+        ],
+        "creationdate": [
+          "1995-"
+        ],
+        "lds20": [
+          "33121-ucladb"
+        ],
+        "publisher": [
+          "West Hollywood, CA : LA Gay, Inc.",
+          "Vol. 1, no. 1 (autumn 1995)-"
+        ],
+        "mms": [
+          "99331213606533"
+        ],
+        "frequency": [
+          "Monthly"
+        ],
+        "genre": [
+          "Periodicals"
+        ],
+        "unititle": [
+          "Moon (West Hollywood, Calif.)"
+        ],
+        "place": [
+          "West Hollywood, CA :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "Title from cover."
+        ],
+        "lds17": [
+          "(CLU)33121-ucladb-Voyager",
+          "(OCoLC)33900252",
+          "(OCoLC)ocm33900252 "
+        ],
+        "lds18": [
+          "West Hollywood, CA : LA Gay, Inc., 1995-"
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "99331213606533"
+        ],
+        "recordid": [
+          "alma99331213606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "33121-ucladb"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.13094571"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "date": [
+          "1995",
+          "1995-"
+        ],
+        "cop": [
+          "West Hollywood, CA"
+        ],
+        "pub": [
+          "LA Gay, Inc."
+        ],
+        "oclcid": [
+          "(ocolc)33900252"
+        ],
+        "lccn": [
+          "sn 95018398"
+        ],
+        "format": [
+          "journal"
+        ],
+        "genre": [
+          "journal"
+        ],
+        "ristype": [
+          "JOUR"
+        ],
+        "jtitle": [
+          "Moon (West Hollywood, Calif.)"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon (West Hollywood, Calif.)"
+        ],
+        "creationdate": [
+          "1995"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9072914750881338983"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9916625323606533",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "conference_proceeding"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "The moon  / edited by Stanley Keith Runcorn and Harold C. Urey."
+        ],
+        "subject": [
+          "39.52 moon",
+          "Maan",
+          "MOON",
+          "CONFERENCES",
+          "Lune",
+          "Moon -- Congresses",
+          "Lune -- Congr\u00e8s",
+          "Moon"
+        ],
+        "format": [
+          "xvi, 471 pages : illustrations ; 25 cm."
+        ],
+        "identifier": [
+          "$$CLC$$V   73188005 ;$$CISBN$$V9027701490;$$CISBN$$V9789027701497;$$COCLC$$V(OCoLC)00579782;$$COCLC$$V(OCoLC)ocm00579782 "
+        ],
+        "creationdate": [
+          "1972"
+        ],
+        "lds20": [
+          "1662532-ucladb"
+        ],
+        "creator": [
+          "I.A.U. Symposium on the Moon (2nd : 1971 : University of Newcastle-Upon-Tyne)$$QI.A.U. Symposium on the Moon"
+        ],
+        "publisher": [
+          "Dordrecht : Reidel"
+        ],
+        "mms": [
+          "9916625323606533"
+        ],
+        "contributor": [
+          "International Astronomical Union.$$QInternational Astronomical Union.",
+          "Runcorn, S. K., editor.$$QRuncorn, S. K.",
+          "Urey, Harold Clayton, 1893-1981, editor.$$QUrey, Harold Clayton"
+        ],
+        "series": [
+          "International Astronomical Union. Symposium no. 47$$QInternational Astronomical Union. Symposium",
+          "International Astronomical Union. Symposium, 47$$QInternational Astronomical Union. Symposium",
+          "Symposium (International Astronomical Union) ; no. 47.$$QSymposium (International Astronomical Union) "
+        ],
+        "contents": [
+          "Contents: I. Rocket exploration of the moon -- II. Selenodesy and mapping of the moon -- III. Origin, internal structure and surface of the lunar globe -- IV. Physical studies of the lunar surface -- V. Radio observations of the moon."
+        ],
+        "genre": [
+          "Congresses",
+          "proceedings (reports)",
+          "Congresses (form)",
+          "Conference papers and proceedings"
+        ],
+        "place": [
+          "Dordrecht :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "\"Symposium no. 47 held at the University of Newcastle-Upon-Tyne, England, 22-26 March, 1971.\"",
+          "At head of title: International Astronomical Union. Union astronomique internationale.",
+          "Includes bibliographical references."
+        ],
+        "lds13": [
+          "International Astronomical Union. Symposium no. 47",
+          "International Astronomical Union. Symposium, 47"
+        ],
+        "lds17": [
+          "(CU-S)b14043804-01ucs_sdi",
+          "(OCoLC)00579782",
+          "(OCoLC)ocm00579782 "
+        ],
+        "lds18": [
+          "Dordrecht : Reidel, 1972."
+        ],
+        "lds19": [
+          "I.A.U. Symposium on the Moon (2nd : 1971 : University of Newcastle-Upon-Tyne)"
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9916625323606533"
+        ],
+        "recordid": [
+          "alma9916625323606533"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "b14043804-01ucs_sdi"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.13094571"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDContributor": [
+          "n85800535",
+          "n50022105"
+        ],
+        "aulast": [
+          "Runcorn",
+          "Urey"
+        ],
+        "aufirst": [
+          "S. K.",
+          "Harold Clayton"
+        ],
+        "auinit": [
+          "S",
+          "H"
+        ],
+        "aucorp": [
+          "I.A.U. Symposium on the Moon (2nd : 1971 : University of Newcastle-Upon-Tyne)"
+        ],
+        "addau": [
+          "International Astronomical Union.",
+          "Runcorn, S. K.",
+          "Urey, Harold Clayton"
+        ],
+        "contributorfull": [
+          "$$NRuncorn, S. K.$$LRuncorn$$FS. K.$$Reditor",
+          "$$NUrey, Harold Clayton$$Reditor"
+        ],
+        "title": [
+          "The moon /"
+        ],
+        "date": [
+          "1972"
+        ],
+        "isbn": [
+          "9027701490",
+          "9789027701497"
+        ],
+        "notes": [
+          "Includes bibliographical references."
+        ],
+        "cop": [
+          "Dordrecht"
+        ],
+        "pub": [
+          "Reidel"
+        ],
+        "oclcid": [
+          "(ocolc)579782"
+        ],
+        "lccn": [
+          "73188005"
+        ],
+        "seriestitle": [
+          "International Astronomical Union. Symposium no. 47"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "proceeding"
+        ],
+        "ristype": [
+          "BOOK"
+        ]
+      },
+      "sort": {
+        "title": [
+          "moon /"
+        ],
+        "author": [
+          "I.A.U. Symposium on the Moon (2nd : 1971 : University of Newcastle-Upon-Tyne)"
+        ],
+        "creationdate": [
+          "1972"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9058316669384512826"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9913723150106531",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / Jeremy Gavron."
+        ],
+        "subject": [
+          "English fiction -- 20th century",
+          "English fiction",
+          "1900-1999"
+        ],
+        "format": [
+          "181 pages ; 21 cm"
+        ],
+        "identifier": [
+          "$$CISBN$$V0670868124;$$CISBN$$V9780670868124;$$COCLC$$V(OCoLC)35136720;$$COCLC$$V(OCoLC)ocm35136720 "
+        ],
+        "creationdate": [
+          "1996"
+        ],
+        "creator": [
+          "Gavron, Jeremy.$$QGavron, Jeremy."
+        ],
+        "publisher": [
+          "London : Viking"
+        ],
+        "description": [
+          "A white boy grows up on his family's farm in Kenya in the 1950's. The escalating racial tension in the country affects the boy's relationship with his father's African driver."
+        ],
+        "mms": [
+          "9913723150106531"
+        ],
+        "genre": [
+          "Fiction"
+        ],
+        "place": [
+          "London :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds17": [
+          "(CUY)UCB-b208215542-01ucs_ber",
+          "(OCoLC)35136720",
+          "(OCoLC)ocm35136720 "
+        ],
+        "lds18": [
+          "London : Viking, 1996."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9913723150106531"
+        ],
+        "recordid": [
+          "alma9913723150106531"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "UCB-b208215542-01ucs_ber"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.03928371"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "aulast": [
+          "Gavron"
+        ],
+        "aufirst": [
+          "Jeremy."
+        ],
+        "auinit": [
+          "J"
+        ],
+        "au": [
+          "Gavron, Jeremy."
+        ],
+        "creatorfull": [
+          "$$NGavron, Jeremy.$$LGavron$$FJeremy.$$Rauthor"
+        ],
+        "date": [
+          "1996"
+        ],
+        "isbn": [
+          "0670868124",
+          "9780670868124"
+        ],
+        "abstract": [
+          "A white boy grows up on his family's farm in Kenya in the 1950's. The escalating racial tension in the country affects the boy's relationship with his father's African driver."
+        ],
+        "cop": [
+          "London"
+        ],
+        "pub": [
+          "Viking"
+        ],
+        "oclcid": [
+          "(ocolc)35136720"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Gavron, Jeremy."
+        ],
+        "creationdate": [
+          "1996"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9081530483436745562"
+        ]
+      }
+    }
+  },
+  {
+    "context": "L",
+    "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9913568862906531",
+    "adaptor": "Local Search Engine",
+    "pnx": {
+      "display": {
+        "source": [
+          "Alma"
+        ],
+        "type": [
+          "book"
+        ],
+        "language": [
+          "eng"
+        ],
+        "title": [
+          "Moon  / Edgar Williams."
+        ],
+        "subject": [
+          "Literature",
+          "Mythology",
+          "Social aspects",
+          "Mond",
+          "Mond Motiv",
+          "Kultur",
+          "Moon -- In art",
+          "Moon -- In literature",
+          "Moon -- Social aspects",
+          "Moon -- Mythology",
+          "Lune",
+          "Lune -- Dans l'art",
+          "Lune -- Aspect social",
+          "Lune -- Mythologie",
+          "Moon"
+        ],
+        "format": [
+          "198 pages : illustrations (chiefly color) ; 21 cm."
+        ],
+        "identifier": [
+          "$$CISBN$$V9781780232812 paperback;$$CISBN$$V1780232810 paperback;$$CISBN$$V9781780233215 electronic book;$$CISBN$$V1780233213 electronic book;$$COCLC$$V(OCoLC)889550236;$$COCLC$$V(OCoLC)ocn889550236"
+        ],
+        "creationdate": [
+          "2014"
+        ],
+        "creator": [
+          "Williams, Edgar Mark, 1960- author.$$QWilliams, Edgar Mark"
+        ],
+        "publisher": [
+          "London, UK : Reaktion Books"
+        ],
+        "description": [
+          "\"Long before a rocket hit the Man in the Moon in the eye in Georges M\u00e9li\u00e8s's early film Le Voyage dans la Lune, the earth's lone satellite had entranced humans. We have worshipped it as a deity, believed it to cause madness, used it as a means of organizing time, and we now know that it manipulates the tides--our understanding of the moon continues to evolve. Following the moon from its origins to its rich cultural resonance in literature, art, religion, and politics, Moon provides a comprehensive account of the significance of our lunar companion...\"--Book flap."
+        ],
+        "mms": [
+          "9913568862906531"
+        ],
+        "addtitle": [
+          "Cover subtitle : Nature and culture"
+        ],
+        "series": [
+          "Earth series$$QEarth series",
+          "Earth series (Reaktion Books (Firm))$$QEarth series (Reaktion Books (Firm))"
+        ],
+        "contents": [
+          "Contents: Introduction -- Lunar shadows -- Time and motion -- Stories and legends -- Man and the moon -- Lunar art and literature -- One small step for a man, one giant leap for mankind -- Legacy -- Timeline for moon landings."
+        ],
+        "genre": [
+          "Art"
+        ],
+        "relation": [
+          "$$Cform$$VMoon : nature and culture$$Z9916914133306531"
+        ],
+        "mesh": [
+          "Moon"
+        ],
+        "place": [
+          "London, UK :"
+        ],
+        "version": [
+          "1"
+        ],
+        "lds02": [
+          "Includes bibliographical references and index."
+        ],
+        "lds13": [
+          "Earth series"
+        ],
+        "lds17": [
+          "(CUY)UCB-b218966234-01ucs_ber",
+          "(OCoLC)889550236",
+          "(OCoLC)ocn889550236"
+        ],
+        "lds18": [
+          "London, UK : Reaktion Books 2014."
+        ]
+      },
+      "control": {
+        "sourcerecordid": [
+          "9913568862906531"
+        ],
+        "recordid": [
+          "alma9913568862906531"
+        ],
+        "sourceid": "alma",
+        "originalsourceid": [
+          "UCB-b218966234-01ucs_ber"
+        ],
+        "sourcesystem": [
+          "OCLC"
+        ],
+        "sourceformat": [
+          "MARC21"
+        ],
+        "score": [
+          "0.03928371"
+        ],
+        "isDedup": false
+      },
+      "addata": {
+        "originatingSystemIDAuthor": [
+          "no2011051278"
+        ],
+        "aulast": [
+          "Williams"
+        ],
+        "aufirst": [
+          "Edgar Mark"
+        ],
+        "auinit": [
+          "E"
+        ],
+        "au": [
+          "Williams, Edgar Mark"
+        ],
+        "creatorfull": [
+          "$$NWilliams, Edgar Mark$$LWilliams$$FEdgar Mark$$Rauthor"
+        ],
+        "addtitle": [
+          "Nature and culture"
+        ],
+        "date": [
+          "2014 - 2014",
+          "2014"
+        ],
+        "isbn": [
+          "9781780232812",
+          "1780232810",
+          "9781780233215",
+          "1780233213"
+        ],
+        "notes": [
+          "Includes bibliographical references and index."
+        ],
+        "abstract": [
+          "\"Long before a rocket hit the Man in the Moon in the eye in Georges M\u00e9li\u00e8s's early film Le Voyage dans la Lune, the earth's lone satellite had entranced humans. We have worshipped it as a deity, believed it to cause madness, used it as a means of organizing time, and we now know that it manipulates the tides--our understanding of the moon continues to evolve. Following the moon from its origins to its rich cultural resonance in literature, art, religion, and politics, Moon provides a comprehensive account of the significance of our lunar companion...\"--Book flap."
+        ],
+        "cop": [
+          "London, UK"
+        ],
+        "pub": [
+          "Reaktion Books"
+        ],
+        "oclcid": [
+          "(ocolc)889550236"
+        ],
+        "seriestitle": [
+          "Earth series"
+        ],
+        "format": [
+          "book"
+        ],
+        "genre": [
+          "book"
+        ],
+        "ristype": [
+          "BOOK"
+        ],
+        "btitle": [
+          "Moon"
+        ]
+      },
+      "sort": {
+        "title": [
+          "Moon /"
+        ],
+        "author": [
+          "Williams, Edgar Mark, 1960- author."
+        ],
+        "creationdate": [
+          "2014"
+        ]
+      },
+      "facets": {
+        "frbrtype": [
+          "6"
+        ],
+        "frbrgroupid": [
+          "9025307889979906607"
+        ]
+      }
+    }
+  }
+]
