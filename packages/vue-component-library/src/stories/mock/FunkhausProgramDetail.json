@@ -1,0 +1,493 @@
+[
+  {
+    "data": 1,
+    "prerenderedAt": 185
+  },
+  [
+    "ShallowReactive",
+    2
+  ],
+  {
+    "program-detail-modern-endangered-archives-program": 3
+  },
+  {
+    "entry": 4,
+    "associatedArticles": 131
+  },
+  {
+    "id": 5,
+    "sectionHandle": 6,
+    "slug": 7,
+    "uri": 8,
+    "title": 9,
+    "text": 10,
+    "heroImage": 11,
+    "buttonUrl": 25,
+    "email": 29,
+    "phoneNumber": 30,
+    "viewStaffDirectory": 31,
+    "department": 32,
+    "programType": 33,
+    "blocks": 40
+  },
+  "123569",
+  "program",
+  "modern-endangered-archives-program",
+  "about/programs/modern-endangered-archives-program",
+  "Modern Endangered Archives Program",
+  "\u003Cp>Modern Endangered Archives Program (MEAP) grants enable digitization and access to at-risk cultural heritage collections from around the world. \u003C/p>",
+  [
+    12
+  ],
+  {
+    "id": 13,
+    "image": 14
+  },
+  "123576",
+  [
+    15
+  ],
+  {
+    "id": 16,
+    "src": 17,
+    "height": 18,
+    "width": 19,
+    "srcset": 20,
+    "alt": 21,
+    "focalPoint": 22
+  },
+  "42805",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/default-5.jpeg",
+  1533,
+  2560,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/default-5.jpeg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/default-5.jpeg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/default-5.jpeg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/default-5.jpeg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/default-5.jpeg 2560w",
+  "Man in an African print shirt",
+  [
+    23,
+    24
+  ],
+  0.5394,
+  0.3057,
+  [
+    26
+  ],
+  {
+    "buttonText": 27,
+    "buttonUrl": 28
+  },
+  "Visit the MEAP website",
+  "https://meap.library.ucla.edu/",
+  "meap@library.ucla.edu",
+  null,
+  "false",
+  [],
+  [
+    34,
+    37
+  ],
+  {
+    "id": 35,
+    "title": 36
+  },
+  "610877",
+  "Awards, Fellowships, Opportunities",
+  {
+    "id": 38,
+    "title": 39
+  },
+  "610878",
+  "Collections",
+  [
+    41,
+    46
+  ],
+  {
+    "id": 42,
+    "typeHandle": 43,
+    "richText": 44,
+    "sectionTitle": 45
+  },
+  "439168",
+  "richText",
+  "\u003Cp>The Modern Endangered Archive Program (MEAP) is a granting program at the UCLA Library that works to preserve global cultural heritage collections at risk of loss due to environmental conditions, political uncertainty, inherently unsustainable media, inappropriate or inadequate storage, climate change or social strife. MEAP \u003Ca href=\"https://meap.library.ucla.edu/projects\" target=\"_blank\" rel=\"noreferrer noopener\">funds projects \u003C/a>to document, digitize and make accessible endangered archival materials from the 20th and 21st Centuries, including print, photographic, film, audio, ephemeral and born-digital objects. Collections focus on history, society, culture and politics, with an emphasis on social justice, human rights activism, cultural production, indigenous experiences and under-documented communities.\u003Cbr />\u003C/p>\n\u003Cp>We offer\u003Ca href=\"https://meap.library.ucla.edu/applicants/how-to-apply\" target=\"_blank\" rel=\"noreferrer noopener\"> three levels of grant support \u003C/a>for projects to organize, collect, convert and describe archival material or existing digital assets.\u003C/p>\n\u003Cp>MEAP is dedicated to:\u003Cbr />\u003C/p>\n\u003Cul>\u003Cli>\u003Cstrong>Providing open access to cultural and historical materials from around the world \u003C/strong>as a challenge to politicized and nationalized historical narratives that minimize or silence multiple voices and perspectives.\u003C/li>\u003Cli>\u003Cstrong>Enabling digital preservation\u003C/strong> of at-risk cultural heritage from parts of the world with limited resources for archival preservation.\u003C/li>\u003Cli>\u003Cstrong>Expanding the capacity\u003C/strong> for digital preservation around the world and building a culture of open access that can continue after the period of the grant.\u003C/li>\u003C/ul>",
+  "About",
+  {
+    "id": 47,
+    "typeHandle": 48,
+    "sectionTitle": 49,
+    "sectionSummary": 30,
+    "cardWithImage": 50
+  },
+  "588064",
+  "cardWithImage",
+  "Featured Collections",
+  [
+    51,
+    65,
+    78,
+    91,
+    103,
+    118
+  ],
+  {
+    "id": 52,
+    "typeHandle": 53,
+    "title": 54,
+    "image": 55,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 63,
+    "to": 64
+  },
+  "588065",
+  "externalContent",
+  "Argentinean Human Rights Periodicals",
+  [
+    56
+  ],
+  {
+    "id": 57,
+    "src": 58,
+    "height": 59,
+    "width": 19,
+    "srcset": 60,
+    "alt": 30,
+    "focalPoint": 61
+  },
+  "46678",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/DGV0044-2_APDH_publications_cropped.jpg",
+  1445,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/DGV0044-2_APDH_publications_cropped.jpg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/DGV0044-2_APDH_publications_cropped.jpg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/DGV0044-2_APDH_publications_cropped.jpg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/DGV0044-2_APDH_publications_cropped.jpg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/DGV0044-2_APDH_publications_cropped.jpg 2560w",
+  [
+    62,
+    62
+  ],
+  0.5,
+  "Memoria Abierta, a collective group of Argentinean human rights organizations (HROs). These organizations authored publications detailing their histories, promoting events & sharing social commentary.",
+  "https://meap.library.ucla.edu/projects/argentinean-human-rights",
+  {
+    "id": 66,
+    "typeHandle": 53,
+    "title": 67,
+    "image": 68,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 76,
+    "to": 77
+  },
+  "588066",
+  "Visual Histories of Northeast India",
+  [
+    69
+  ],
+  {
+    "id": 70,
+    "src": 71,
+    "height": 72,
+    "width": 19,
+    "srcset": 73,
+    "alt": 74,
+    "focalPoint": 75
+  },
+  "50247",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/0015_1_edit.jpg",
+  1861,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/0015_1_edit.jpg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/0015_1_edit.jpg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/0015_1_edit.jpg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/0015_1_edit.jpg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/0015_1_edit.jpg 2560w",
+  "people at local market in India",
+  [
+    62,
+    62
+  ],
+  "A survey of Ahmed Hossain's photographic collection that depicts the socio-cultural life of Northeast India's tribal communities (1960s - 2000s)",
+  "https://meap.library.ucla.edu/projects/visual-histories-of-northeast-india",
+  {
+    "id": 79,
+    "typeHandle": 53,
+    "title": 80,
+    "image": 81,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 89,
+    "to": 90
+  },
+  "588067",
+  "Ephemera from the Barbados Department of Archives",
+  [
+    82
+  ],
+  {
+    "id": 83,
+    "src": 84,
+    "height": 85,
+    "width": 19,
+    "srcset": 86,
+    "alt": 87,
+    "focalPoint": 88
+  },
+  "45770",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg",
+  2653,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/Barbados-Dance-Theatre-Company-A-Season-of-Dance.jpeg 2560w",
+  "Program containing information about the dance and theatre performance of the Barbados National Dance Theatre Company.",
+  [
+    62,
+    62
+  ],
+  "This collection of ephemera covers cultural, political, socioeconomic & religious life in Barbados after the country's transition from a colonial territory to an independent state in 1966.",
+  "https://meap.library.ucla.edu/projects/barbadian-voices/",
+  {
+    "id": 92,
+    "typeHandle": 53,
+    "title": 93,
+    "image": 94,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 101,
+    "to": 102
+  },
+  "588068",
+  "Photo Negatives from the Arab Image Foundation",
+  [
+    95
+  ],
+  {
+    "id": 96,
+    "src": 97,
+    "height": 98,
+    "width": 19,
+    "srcset": 99,
+    "alt": 30,
+    "focalPoint": 100
+  },
+  "57390",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/aif_banner_1-1.jpeg",
+  614,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/aif_banner_1-1.jpeg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/aif_banner_1-1.jpeg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/aif_banner_1-1.jpeg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/aif_banner_1-1.jpeg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/aif_banner_1-1.jpeg 2560w",
+  [
+    62,
+    62
+  ],
+  "This collection from the Arab Image Foundation (AIF) reflects a range of photography methods practiced in Egypt, Iran, Iraq, Lebanon, and Syria, revealing underrepresented cultural histories.",
+  "https://meap.library.ucla.edu/projects/photo-negatives-from-aif",
+  {
+    "id": 104,
+    "typeHandle": 53,
+    "title": 105,
+    "image": 106,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 116,
+    "to": 117
+  },
+  "588069",
+  "Conserving the Archives of Progressive Pakistan",
+  [
+    107
+  ],
+  {
+    "id": 108,
+    "src": 109,
+    "height": 110,
+    "width": 19,
+    "srcset": 111,
+    "alt": 112,
+    "focalPoint": 113
+  },
+  "57584",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg",
+  3542,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/Pages-from-SARRC_AL-FATAH-01-NOV-1973_JOURNAL.jpg 2560w",
+  "SARRC, AL FATAH 01 NOV 1973 - Journal Cover page",
+  [
+    114,
+    115
+  ],
+  0.532,
+  0.1914,
+  "In resistance to the centralizing government state, those of the Pakistan progressive movement left behind a rich archive of photographs, written works, recorded interviews, and documentaries.",
+  "https://meap.library.ucla.edu/projects/conserving-the-archives-of-progressive-pakistan",
+  {
+    "id": 119,
+    "typeHandle": 53,
+    "title": 120,
+    "image": 121,
+    "byline1": 30,
+    "byline2": 30,
+    "category": 30,
+    "text": 129,
+    "to": 130
+  },
+  "588070",
+  "Archival images from the Albanian National Film Archive",
+  [
+    122
+  ],
+  {
+    "id": 123,
+    "src": 124,
+    "height": 125,
+    "width": 19,
+    "srcset": 126,
+    "alt": 127,
+    "focalPoint": 128
+  },
+  "47709",
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_fullscreen/meap0021-banner.png",
+  781,
+  "https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_375xAUTO_crop_center-center_none/meap0021-banner.png 375w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_960xAUTO_crop_center-center_none/meap0021-banner.png 960w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1280xAUTO_crop_center-center_none/meap0021-banner.png 1280w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_1920xAUTO_crop_center-center_none/meap0021-banner.png 1920w, https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-images/_2560xAUTO_crop_center-center_none/meap0021-banner.png 2560w",
+  "film stills",
+  [
+    62,
+    62
+  ],
+  "The Albanian National Film Archive (AQSHF) has digitized a selection of materials from the photographic and graphic art collections, allowing viewers to trace the journey of Albanian visual artists.",
+  "https://meap.library.ucla.edu/projects/albanias-photographic-collections",
+  [
+    132,
+    151,
+    168
+  ],
+  {
+    "id": 133,
+    "title": 134,
+    "to": 135,
+    "externalResourceUrl": 30,
+    "heroImage": 136,
+    "description": 148,
+    "category": 149,
+    "startDate": 150,
+    "endDate": 150
+  },
+  "364458",
+  "UCLA Library to expand global preservation work thanks to largest grant in its history",
+  "about/news/ucla-library-to-expand-global-preservation-work-thanks-to-largest-grant-in-its-history-2",
+  [
+    137
+  ],
+  {
+    "id": 138,
+    "image": 139
+  },
+  "364460",
+  [
+    140
+  ],
+  {
+    "id": 141,
+    "src": 142,
+    "height": 18,
+    "width": 19,
+    "srcset": 143,
+    "alt": 144,
+    "focalPoint": 145
+  },
+  "73964",
+  "https://static.library.ucla.edu/craftassetsprod/images/_fullscreen/Global-Preservation-Work.jpeg",
+  "https://static.library.ucla.edu/craftassetsprod/images/_375xAUTO_crop_center-center_none/Global-Preservation-Work.jpeg 375w, https://static.library.ucla.edu/craftassetsprod/images/_960xAUTO_crop_center-center_none/Global-Preservation-Work.jpeg 960w, https://static.library.ucla.edu/craftassetsprod/images/_1280xAUTO_crop_center-center_none/Global-Preservation-Work.jpeg 1280w, https://static.library.ucla.edu/craftassetsprod/images/_1920xAUTO_crop_center-center_none/Global-Preservation-Work.jpeg 1920w, https://static.library.ucla.edu/craftassetsprod/images/_2560xAUTO_crop_center-center_none/Global-Preservation-Work.jpeg 2560w",
+  "Lead archivist Nazia Akram taking photos of the Ghaws Baba Shrine in Thana, Malakand Agency, Pakistan.",
+  [
+    146,
+    147
+  ],
+  0.1422,
+  0.6346,
+  "\u003Cp>$13 million from Arcadia will bolster the Modern Endangered Archives Program.\u003C/p>",
+  "article",
+  "2023-01-12T11:36:15-08:00",
+  {
+    "id": 152,
+    "title": 153,
+    "to": 154,
+    "externalResourceUrl": 30,
+    "heroImage": 155,
+    "description": 166,
+    "category": 149,
+    "startDate": 167,
+    "endDate": 167
+  },
+  "5210745",
+  "Digital collections help students reckon with the past",
+  "about/news/digital-collections-help-students-reckon-with-the-past",
+  [
+    156
+  ],
+  {
+    "id": 157,
+    "image": 158
+  },
+  "5211105",
+  [
+    159
+  ],
+  {
+    "id": 160,
+    "src": 161,
+    "height": 162,
+    "width": 19,
+    "srcset": 163,
+    "alt": 164,
+    "focalPoint": 165
+  },
+  "5211009",
+  "https://static.library.ucla.edu/craftassetsprod/images/_fullscreen/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png",
+  1846,
+  "https://static.library.ucla.edu/craftassetsprod/images/_375xAUTO_crop_center-center_none/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png 375w, https://static.library.ucla.edu/craftassetsprod/images/_960xAUTO_crop_center-center_none/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png 960w, https://static.library.ucla.edu/craftassetsprod/images/_1280xAUTO_crop_center-center_none/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png 1280w, https://static.library.ucla.edu/craftassetsprod/images/_1920xAUTO_crop_center-center_none/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png 1920w, https://static.library.ucla.edu/craftassetsprod/images/_2560xAUTO_crop_center-center_none/Screenshot-2024-10-09-at-3.25.12-PM_2024-10-10-204220_kwmf.png 2560w",
+  "Chilean graphic arts poster",
+  [
+    62,
+    62
+  ],
+  "\u003Cp>The Modern Endangered Archives Program's digitized collections help to advance UCLA's teaching and learning mission\u003C/p>",
+  "2024-10-10T13:04:48-07:00",
+  {
+    "id": 169,
+    "title": 170,
+    "to": 171,
+    "externalResourceUrl": 30,
+    "heroImage": 172,
+    "description": 183,
+    "category": 149,
+    "startDate": 184,
+    "endDate": 184
+  },
+  "5694111",
+  "Record number of MEAP grant applications underscore value of global preservation funding",
+  "about/news/record-number-meap-grant-applications",
+  [
+    173
+  ],
+  {
+    "id": 174,
+    "image": 175
+  },
+  "5727481",
+  [
+    176
+  ],
+  {
+    "id": 177,
+    "src": 178,
+    "height": 179,
+    "width": 19,
+    "srcset": 180,
+    "alt": 181,
+    "focalPoint": 182
+  },
+  "5731488",
+  "https://static.library.ucla.edu/craftassetsprod/images/_fullscreen/Untitled-design.png",
+  1658,
+  "https://static.library.ucla.edu/craftassetsprod/images/_375xAUTO_crop_center-center_none/Untitled-design.png 375w, https://static.library.ucla.edu/craftassetsprod/images/_960xAUTO_crop_center-center_none/Untitled-design.png 960w, https://static.library.ucla.edu/craftassetsprod/images/_1280xAUTO_crop_center-center_none/Untitled-design.png 1280w, https://static.library.ucla.edu/craftassetsprod/images/_1920xAUTO_crop_center-center_none/Untitled-design.png 1920w, https://static.library.ucla.edu/craftassetsprod/images/_2560xAUTO_crop_center-center_none/Untitled-design.png 2560w",
+  "Sudanese materials",
+  [
+    62,
+    62
+  ],
+  "\u003Cp>UCLA Library's Modern Endangered Archives Program (MEAP) preserves endangered cultural heritage worldwide, recently documenting Sudanese women activists' history before conflict destroyed collections \u003C/p>",
+  "2024-12-09T14:00:53-08:00",
+  1758010143593
+]
