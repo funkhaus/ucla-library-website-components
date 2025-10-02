@@ -1,6 +1,7 @@
 // Storybook default settings
 import { computed } from 'vue'
 import SearchResultsCount from '@/lib-components/SearchResultsCount.vue'
+import { SearchResultsCountVariants } from '@/types/components/SearchResultsCountTypes'
 
 export default {
   title: 'Funkhaus / SearchResultsCount',
@@ -22,6 +23,12 @@ export default {
       control: 'boolean',
       description: 'Whether to animate the count',
     },
+    variant: {
+      control: 'select',
+      options: Object.values(SearchResultsCountVariants),
+      description: 'Visual variant of the component',
+      mapping: SearchResultsCountVariants,
+    },
   },
 }
 
@@ -42,6 +49,8 @@ function Template(args) {
           :prefix="args.prefix"
           :label="args.label"
           :animate="args.animate"
+          :variant="args.variant"
+          :suffix-label="args.suffixLabel"
         />
     `,
   }
@@ -52,7 +61,17 @@ Default.args = {
   count: 110,
   prefix: 'Catalogue',
   label: 'Results',
+  animate: true
+}
+
+export const Horizontal = Template.bind({})
+Horizontal.args = {
+  count: 110,
+  prefix: 'Catalogue',
+  label: 'Results',
   animate: true,
+  variant: SearchResultsCountVariants.HORIZONTAL,
+  suffixLabel: 'Results',
 }
 
 export const LotsOfResults = Template.bind({})

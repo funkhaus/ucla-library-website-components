@@ -1,22 +1,22 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from "vue"
 import { useTheme } from "@/composables/useTheme"
+import {
+    SearchResultsCountVariants,
+    type SearchResultsCountProps,
+} from "@/types/components/SearchResultsCountTypes"
 
 const props = withDefaults(defineProps<SearchResultsCountProps>(), {
     animate: false,
     count: 0,
     label: "",
     prefix: "",
+    variant: SearchResultsCountVariants.VERTICAL,
+    suffixLabel: "",
 })
 
 const theme = useTheme()
 
-interface SearchResultsCountProps {
-    count: number
-    label: string
-    prefix: string
-    animate?: boolean
-}
 const parsedResults = computed(() => {
     if (props.prefix && props.label) return `${props.prefix} ${props.label}`
     else if (props.prefix) return props.prefix
@@ -26,7 +26,7 @@ const parsedResults = computed(() => {
 })
 
 const classes = computed(() => {
-    return ["search-results-count", theme?.value || ""]
+    return ["search-results-count", theme?.value || "", props.variant || ""]
 })
 
 const animatedCount = ref(0)
@@ -72,12 +72,20 @@ onUnmounted(() => {
 
 <template>
     <div :class="classes">
-        <span class="parsed-results">
+        <span
+            class="parsed-results"
+            v-if="props.variant === SearchResultsCountVariants.VERTICAL"
+        >
             {{ parsedResults }}
         </span>
         <div class="count" aria-live="polite">
             <span>{{ animatedCount }}</span>
         </div>
+        <span
+            class="parsed-results"
+            v-if="props.variant === SearchResultsCountVariants.HORIZONTAL"
+            >{{ suffixLabel }}</span
+        >
     </div>
 </template>
 
