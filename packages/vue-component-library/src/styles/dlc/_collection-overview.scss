@@ -21,24 +21,6 @@
         color: var(--color-black);
     }
 
-    .search-results-count {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 8px;
-
-        width: fit-content;
-        margin: 0 0 48px;
-
-        // Custom label styles
-        :deep(.parsed-results),
-        :deep(.count) {
-            font-family: var(--font-primary);
-            font-size: 24px;
-            font-weight: 400;
-        }
-    }
-
     .subtitle {
         margin: 0 0 18px;
 

@@ -7,6 +7,7 @@ import SearchResultsCount from '@/lib-components/SearchResultsCount.vue'
 import BlockButtons from '@/lib-components/BlockButtons.vue'
 import ResponsiveImage from '@/lib-components/ResponsiveImage.vue'
 import { useTheme } from '@/composables/useTheme'
+import { SearchResultsCountVariants } from '@/types/components/SearchResultsCountTypes'
 
 interface CollectionOverviewProps {
   title: string
@@ -53,10 +54,10 @@ const classes = computed(() => {
       <SearchResultsCount
         v-if="itemsCount"
         :count="itemsCount"
-        prefix=""
-        :label="labelParsed"
+        :suffix-label="labelParsed"
         :animate="true"
         class="search-results-count"
+        :variant="SearchResultsCountVariants.HORIZONTAL"
       />
     </template>
 
@@ -70,10 +71,10 @@ const classes = computed(() => {
           <SearchResultsCount
             v-if="itemsCount"
             :count="itemsCount"
-            prefix=""
-            :label="labelParsed"
+            :suffix-label="labelParsed"
             :animate="true"
             class="search-results-count"
+            :variant="SearchResultsCountVariants.HORIZONTAL"
           />
         </template>
 
