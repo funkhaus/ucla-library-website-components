@@ -1,0 +1,869 @@
+{
+  "beaconO22": "89",
+  "facets": [
+    {
+      "name": "rtype",
+      "values": [
+        {
+          "value": "newspaper_articles",
+          "count": "2734"
+        },
+        {
+          "value": "newsletterarticle",
+          "count": "1448"
+        },
+        {
+          "value": "articles",
+          "count": "1052"
+        },
+        {
+          "value": "web_resources",
+          "count": "612"
+        },
+        {
+          "value": "magazinearticle",
+          "count": "536"
+        },
+        {
+          "value": "book_chapters",
+          "count": "211"
+        },
+        {
+          "value": "dissertations",
+          "count": "138"
+        },
+        {
+          "value": "government_documents",
+          "count": "113"
+        },
+        {
+          "value": "text_resources",
+          "count": "49"
+        },
+        {
+          "value": "reviews",
+          "count": "44"
+        },
+        {
+          "value": "conference_proceedings",
+          "count": "43"
+        },
+        {
+          "value": "reports",
+          "count": "26"
+        },
+        {
+          "value": "reference_entrys",
+          "count": "20"
+        },
+        {
+          "value": "archival_material_manuscripts",
+          "count": "18"
+        },
+        {
+          "value": "books",
+          "count": "17"
+        },
+        {
+          "value": "patents",
+          "count": "13"
+        },
+        {
+          "value": "datasets",
+          "count": "8"
+        },
+        {
+          "value": "images",
+          "count": "4"
+        },
+        {
+          "value": "videos",
+          "count": "2"
+        },
+        {
+          "value": "other",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "institution",
+      "values": [
+        {
+          "value": "6533",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "creationdate",
+      "values": [
+        {
+          "value": "1701",
+          "count": "1"
+        },
+        {
+          "value": "1800",
+          "count": "16"
+        },
+        {
+          "value": "1900",
+          "count": "176"
+        },
+        {
+          "value": "1910",
+          "count": "21"
+        },
+        {
+          "value": "1920",
+          "count": "28"
+        },
+        {
+          "value": "1930",
+          "count": "29"
+        },
+        {
+          "value": "1940",
+          "count": "23"
+        },
+        {
+          "value": "1950",
+          "count": "44"
+        },
+        {
+          "value": "1951",
+          "count": "7"
+        },
+        {
+          "value": "1952",
+          "count": "3"
+        },
+        {
+          "value": "1953",
+          "count": "2"
+        },
+        {
+          "value": "1954",
+          "count": "7"
+        },
+        {
+          "value": "1955",
+          "count": "6"
+        },
+        {
+          "value": "1956",
+          "count": "3"
+        },
+        {
+          "value": "1957",
+          "count": "10"
+        },
+        {
+          "value": "1958",
+          "count": "2"
+        },
+        {
+          "value": "1959",
+          "count": "2"
+        },
+        {
+          "value": "1960",
+          "count": "5"
+        },
+        {
+          "value": "1961",
+          "count": "9"
+        },
+        {
+          "value": "1962",
+          "count": "6"
+        },
+        {
+          "value": "1963",
+          "count": "3"
+        },
+        {
+          "value": "1964",
+          "count": "2"
+        },
+        {
+          "value": "1965",
+          "count": "2"
+        },
+        {
+          "value": "1966",
+          "count": "9"
+        },
+        {
+          "value": "1967",
+          "count": "5"
+        },
+        {
+          "value": "1968",
+          "count": "6"
+        },
+        {
+          "value": "1969",
+          "count": "3"
+        },
+        {
+          "value": "1970",
+          "count": "4"
+        },
+        {
+          "value": "1971",
+          "count": "5"
+        },
+        {
+          "value": "1972",
+          "count": "4"
+        },
+        {
+          "value": "1973",
+          "count": "1"
+        },
+        {
+          "value": "1974",
+          "count": "3"
+        },
+        {
+          "value": "1975",
+          "count": "4"
+        },
+        {
+          "value": "1976",
+          "count": "7"
+        },
+        {
+          "value": "1977",
+          "count": "4"
+        },
+        {
+          "value": "1978",
+          "count": "4"
+        },
+        {
+          "value": "1979",
+          "count": "5"
+        },
+        {
+          "value": "1980",
+          "count": "1"
+        },
+        {
+          "value": "1981",
+          "count": "4"
+        },
+        {
+          "value": "1982",
+          "count": "2"
+        },
+        {
+          "value": "1983",
+          "count": "3"
+        },
+        {
+          "value": "1984",
+          "count": "3"
+        },
+        {
+          "value": "1985",
+          "count": "3"
+        },
+        {
+          "value": "1986",
+          "count": "5"
+        },
+        {
+          "value": "1987",
+          "count": "7"
+        },
+        {
+          "value": "1988",
+          "count": "6"
+        },
+        {
+          "value": "1989",
+          "count": "5"
+        },
+        {
+          "value": "1990",
+          "count": "6"
+        },
+        {
+          "value": "1991",
+          "count": "6"
+        },
+        {
+          "value": "1992",
+          "count": "5"
+        },
+        {
+          "value": "1993",
+          "count": "8"
+        },
+        {
+          "value": "1994",
+          "count": "5"
+        },
+        {
+          "value": "1995",
+          "count": "4"
+        },
+        {
+          "value": "1996",
+          "count": "6"
+        },
+        {
+          "value": "1997",
+          "count": "4"
+        },
+        {
+          "value": "1998",
+          "count": "6"
+        },
+        {
+          "value": "1999",
+          "count": "9"
+        },
+        {
+          "value": "2000",
+          "count": "17"
+        },
+        {
+          "value": "2001",
+          "count": "12"
+        },
+        {
+          "value": "2002",
+          "count": "14"
+        },
+        {
+          "value": "2003",
+          "count": "8"
+        },
+        {
+          "value": "2004",
+          "count": "16"
+        },
+        {
+          "value": "2005",
+          "count": "20"
+        },
+        {
+          "value": "2006",
+          "count": "31"
+        },
+        {
+          "value": "2007",
+          "count": "32"
+        },
+        {
+          "value": "2008",
+          "count": "42"
+        },
+        {
+          "value": "2009",
+          "count": "112"
+        },
+        {
+          "value": "2010",
+          "count": "93"
+        },
+        {
+          "value": "2011",
+          "count": "127"
+        },
+        {
+          "value": "2012",
+          "count": "119"
+        },
+        {
+          "value": "2013",
+          "count": "125"
+        },
+        {
+          "value": "2014",
+          "count": "237"
+        },
+        {
+          "value": "2015",
+          "count": "299"
+        },
+        {
+          "value": "2016",
+          "count": "269"
+        },
+        {
+          "value": "2017",
+          "count": "255"
+        },
+        {
+          "value": "2018",
+          "count": "335"
+        },
+        {
+          "value": "2019",
+          "count": "441"
+        },
+        {
+          "value": "2020",
+          "count": "442"
+        },
+        {
+          "value": "2021",
+          "count": "550"
+        },
+        {
+          "value": "2022",
+          "count": "1013"
+        },
+        {
+          "value": "2023",
+          "count": "813"
+        },
+        {
+          "value": "2024",
+          "count": "615"
+        },
+        {
+          "value": "2025",
+          "count": "517"
+        },
+        {
+          "value": "2026",
+          "count": "2"
+        }
+      ]
+    },
+    {
+      "name": "creator",
+      "values": [
+        {
+          "value": "Zhang, Tiantian",
+          "count": "2"
+        },
+        {
+          "value": "Wang, Jie",
+          "count": "4"
+        },
+        {
+          "value": "Chan, Hing Kai",
+          "count": "1"
+        },
+        {
+          "value": "Liu, Martin J",
+          "count": "1"
+        },
+        {
+          "value": "Reynolds, Pauline J.",
+          "count": "1"
+        },
+        {
+          "value": "Tobolowsky, Barbara F.",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "tlevel",
+      "values": [
+        {
+          "value": "open_access",
+          "count": "256"
+        },
+        {
+          "value": "peer_reviewed",
+          "count": "554"
+        },
+        {
+          "value": "online_resources",
+          "count": "1919"
+        },
+        {
+          "value": "available_p",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "newrecords",
+      "values": [
+        {
+          "value": "90 days back",
+          "count": "248"
+        },
+        {
+          "value": "07 days back",
+          "count": "12"
+        },
+        {
+          "value": "30 days back",
+          "count": "63"
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "values": [
+        {
+          "value": "6533–112125230006533",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "domain",
+      "values": [
+        {
+          "value": "Factiva - Classic",
+          "count": "486"
+        },
+        {
+          "value": "Nexis Uni",
+          "count": "391"
+        },
+        {
+          "value": "U.S. Major Dailies",
+          "count": "305"
+        },
+        {
+          "value": "Newsbank All Titles (Single Title access)",
+          "count": "302"
+        },
+        {
+          "value": "ProQuest Historical Newspapers",
+          "count": "280"
+        },
+        {
+          "value": "EBSCOhost Academic Search Complete",
+          "count": "260"
+        },
+        {
+          "value": "Single Journals",
+          "count": "236"
+        },
+        {
+          "value": "Ethnic NewsWatch",
+          "count": "226"
+        },
+        {
+          "value": "Ingenta Connect",
+          "count": "224"
+        },
+        {
+          "value": "EBSCOhost MasterFILE Premier",
+          "count": "206"
+        },
+        {
+          "value": "EBSCOhost Business Source Complete",
+          "count": "198"
+        },
+        {
+          "value": "YBP/eBrary DDA Purchased",
+          "count": "194"
+        },
+        {
+          "value": "EBSCO Japanese DDA Purchased",
+          "count": "154"
+        },
+        {
+          "value": "Black Studies Center",
+          "count": "138"
+        },
+        {
+          "value": "ProQuest Dissertations & Theses A&I",
+          "count": "132"
+        },
+        {
+          "value": "DOAJ Directory of Open Access Journals",
+          "count": "129"
+        },
+        {
+          "value": "Access World News",
+          "count": "128"
+        },
+        {
+          "value": "IngentaConnect Journals",
+          "count": "126"
+        },
+        {
+          "value": "ProQuest Dissertations & Theses Global",
+          "count": "122"
+        },
+        {
+          "value": "Performing Arts Periodicals Database",
+          "count": "112"
+        }
+      ]
+    },
+    {
+      "name": "topic",
+      "values": [
+        {
+          "value": "Social Networks",
+          "count": "879"
+        },
+        {
+          "value": "Stockholders",
+          "count": "280"
+        },
+        {
+          "value": "Social Media",
+          "count": "271"
+        },
+        {
+          "value": "Stock Exchanges",
+          "count": "229"
+        },
+        {
+          "value": "Social Sciences",
+          "count": "209"
+        },
+        {
+          "value": "Capital Market",
+          "count": "154"
+        },
+        {
+          "value": "Actions And Defenses",
+          "count": "150"
+        },
+        {
+          "value": "Jurisprudence",
+          "count": "150"
+        },
+        {
+          "value": "Litigation",
+          "count": "149"
+        },
+        {
+          "value": "Investments",
+          "count": "148"
+        },
+        {
+          "value": "Coronaviruses",
+          "count": "146"
+        },
+        {
+          "value": "Consolidation And Merger Of Corporations",
+          "count": "130"
+        },
+        {
+          "value": "Communication",
+          "count": "119"
+        },
+        {
+          "value": "Earnings Per Share",
+          "count": "118"
+        },
+        {
+          "value": "Boards Of Directors",
+          "count": "116"
+        },
+        {
+          "value": "Celebrities",
+          "count": "116"
+        },
+        {
+          "value": "Software",
+          "count": "114"
+        },
+        {
+          "value": "Consultants",
+          "count": "111"
+        },
+        {
+          "value": "Covid-19 Pandemic, 2020-",
+          "count": "109"
+        },
+        {
+          "value": "Internet",
+          "count": "107"
+        },
+        {
+          "value": "United States",
+          "count": "17"
+        },
+        {
+          "value": "United States Intellectual life 21st century",
+          "count": "1"
+        },
+        {
+          "value": "Universités dans la littérature",
+          "count": "1"
+        },
+        {
+          "value": "Universities and colleges in literature",
+          "count": "2"
+        },
+        {
+          "value": "Technological innovations Management",
+          "count": "1"
+        },
+        {
+          "value": "Intellectual life",
+          "count": "2"
+        },
+        {
+          "value": "Higher Education",
+          "count": "1"
+        },
+        {
+          "value": "Universités au cinéma",
+          "count": "1"
+        },
+        {
+          "value": "Universities and colleges in motion pictures",
+          "count": "2"
+        },
+        {
+          "value": "Business logistics Management",
+          "count": "1"
+        },
+        {
+          "value": "National characteristics, American",
+          "count": "2"
+        },
+        {
+          "value": "Education, Higher",
+          "count": "3"
+        },
+        {
+          "value": "2000-2099",
+          "count": "1"
+        },
+        {
+          "value": "États-Unis Vie intellectuelle 21e siècle",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "jtitle",
+      "values": [
+        {
+          "value": "Daily Mirror",
+          "count": "636"
+        },
+        {
+          "value": "Washingtonpost.Com",
+          "count": "192"
+        },
+        {
+          "value": "The Huffington Post",
+          "count": "106"
+        },
+        {
+          "value": "The New York Times",
+          "count": "100"
+        },
+        {
+          "value": "Washington Post – Blogs",
+          "count": "96"
+        },
+        {
+          "value": "Black Enterprise",
+          "count": "87"
+        },
+        {
+          "value": "The Washington Post",
+          "count": "84"
+        },
+        {
+          "value": "Hollywood Life",
+          "count": "83"
+        },
+        {
+          "value": "The Daily Beast",
+          "count": "83"
+        },
+        {
+          "value": "The Business Insider",
+          "count": "78"
+        }
+      ]
+    },
+    {
+      "name": "attribute",
+      "values": [
+        {
+          "value": "review_article",
+          "count": "19"
+        },
+        {
+          "value": "preprint",
+          "count": "5"
+        },
+        {
+          "value": "primary_source",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "name": "lang",
+      "values": [
+        {
+          "value": "eng",
+          "count": "6737"
+        },
+        {
+          "value": "ita",
+          "count": "169"
+        },
+        {
+          "value": "spa",
+          "count": "139"
+        },
+        {
+          "value": "por",
+          "count": "39"
+        },
+        {
+          "value": "chi",
+          "count": "21"
+        },
+        {
+          "value": "fre",
+          "count": "9"
+        },
+        {
+          "value": "ger",
+          "count": "8"
+        },
+        {
+          "value": "jpn",
+          "count": "4"
+        },
+        {
+          "value": "ara",
+          "count": "2"
+        },
+        {
+          "value": "dut",
+          "count": "2"
+        },
+        {
+          "value": "ind",
+          "count": "2"
+        },
+        {
+          "value": "hrv",
+          "count": "1"
+        },
+        {
+          "value": "lat",
+          "count": "1"
+        },
+        {
+          "value": "pol",
+          "count": "1"
+        },
+        {
+          "value": "ukr",
+          "count": "1"
+        }
+      ]
+    }
+  ]
+}
