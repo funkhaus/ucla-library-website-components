@@ -23320,13 +23320,6 @@ snapshots:
             "@poppinss/exception": 1.2.1
             error-stack-parser-es: 1.0.5
 
-    youch@4.1.0-beta.6:
-        dependencies:
-            "@poppinss/dumper": 0.6.3
-            "@speed-highlight/core": 1.2.7
-            cookie: 1.0.2
-            youch-core: 0.3.2
-
   youch@4.1.0-beta.6:
     dependencies:
       '@poppinss/dumper': 0.6.3
