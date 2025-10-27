@@ -55,6 +55,8 @@ const classes = computed(() => {
         v-if="itemsCount"
         :count="itemsCount"
         :suffix-label="labelParsed"
+        label=""
+        prefix=""
         :animate="true"
         class="search-results-count"
         :variant="SearchResultsCountVariants.HORIZONTAL"
@@ -73,6 +75,8 @@ const classes = computed(() => {
             :count="itemsCount"
             :suffix-label="labelParsed"
             :animate="true"
+            label=""
+            prefix=""
             class="search-results-count"
             :variant="SearchResultsCountVariants.HORIZONTAL"
           />
