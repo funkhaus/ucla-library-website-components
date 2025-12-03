@@ -9,16 +9,6 @@ interface GridMetadataProps {
 
 // Props
 defineProps<GridMetadataProps>()
-
-// Data
-
-// Methods
-
-// Computed
-
-// Watchers
-
-// Lifecycle Hooks
 </script>
 
 <template>
