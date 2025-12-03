@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import SvgLogoUclaLibrary from 'ucla-library-design-tokens/assets/svgs/logo-library.svg'
+import SvgLogoFtva from 'ucla-library-design-tokens/assets/svgs/logo-ftva.svg'
 import IconSearch from 'ucla-library-design-tokens/assets/svgs/icon-ftva-search.svg'
 import IconMenu from 'ucla-library-design-tokens/assets/svgs/icon-menu.svg'
 import IconMenuClose from 'ucla-library-design-tokens/assets/svgs/icon-ftva-circle-x.svg'
@@ -68,7 +69,6 @@ const themeSettings = computed(() => {
         renderItemTop: false,
         showSearch: true,
         horizontalMobileMenu: true,
-        headerText: 'UCLA Film & Television Archive',
       }
     default:
       return {
@@ -154,7 +154,8 @@ defineExpose({ closeSlot })
 const { width } = useWindowSize()
 
 // Use computed to check if it's mobile based on window width
-const isMobile = computed(() => width.value <= 750) // Use 750px for mobile breakpoint
+const mobileBreakpoint = 850 // change scss breakpoints in ftva _header-sticky.scss, _nav-primary.scss, _site-brand-bar.scss
+const isMobile = computed(() => width.value <= mobileBreakpoint) // Use 850px for mobile breakpoint
 
 // toggle Mobile-only menu
 function toggleMobileMenu() {
@@ -210,6 +211,11 @@ onMounted(() => {
     },
     { deep: true }
   )
+  watch(route, () => {
+    // force mobile menu to close on navigatiion change
+    // without messing with the complex click handling waterfall for submenus
+    mobileMenuIsOpened.value = false
+  })
   activeMenuIndex.value = currentPathActiveIndex.value
 })
 </script>
@@ -268,10 +274,15 @@ onMounted(() => {
       </a>
     </div>
     <div
-      v-else-if="isMobile && themeSettings.headerText"
+      v-else-if="isMobile && theme === 'ftva'"
       class="item-top-mobile"
     >
-      {{ themeSettings.headerText }}
+      <a
+        href="/"
+        target="_self"
+      >
+        <SvgLogoFtva />
+      </a>
     </div>
 
     <div class="nav-background-fill" />

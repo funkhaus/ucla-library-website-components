@@ -63,6 +63,7 @@ export interface BlockCardMetaType {
   bylineTwo: string
   ongoing: boolean
   postDate?: string
+  customDateTime?: string
 }
 
 export interface BlockImpactNumbersCarouselType {
@@ -165,6 +166,7 @@ export interface CollectionItemType {
   to: string
   videoEmbed: string
   ftvaCollectionType?: string[]
+  customDateTime?: string
 }
 
 export interface DepartmentItemType {
