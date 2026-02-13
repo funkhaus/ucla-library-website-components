@@ -2,14 +2,27 @@
   <div style="padding: 1rem;">
     <h1>Nuxt module playground</h1>
     <h2>Craft API test</h2>
-    <button type="button" :disabled="apiPending" @click="testCraftApi">
+    <button
+      type="button"
+      :disabled="apiPending"
+      @click="testCraftApi"
+    >
       {{ apiPending ? 'Fetching…' : 'Query About entry (GraphQL)' }}
     </button>
-    <div v-if="apiResult !== null" style="margin-top: 0.5rem;">
+    <div
+      v-if="apiResult !== null"
+      style="margin-top: 0.5rem;"
+    >
       <strong>Status:</strong> {{ apiResult.status }}<br>
       <strong>OK:</strong> {{ apiResult.ok }}<br>
-      <pre v-if="apiResult.data !== undefined" style="max-height: 12rem; overflow: auto; font-size: 0.75rem;">{{ JSON.stringify(apiResult.data, null, 2) }}</pre>
-      <pre v-else-if="apiResult.error" style="color: #c00;">{{ apiResult.error }}</pre>
+      <pre
+        v-if="apiResult.data !== undefined"
+        style="max-height: 12rem; overflow: auto; font-size: 0.75rem;"
+      >{{ JSON.stringify(apiResult.data, null, 2) }}</pre>
+      <pre
+        v-else-if="apiResult.error"
+        style="color: #c00;"
+      >{{ apiResult.error }}</pre>
     </div>
   </div>
 </template>
@@ -60,7 +73,7 @@ query AboutEntry($uri: [String]) {
 }
 `
 
-async function testCraftApi () {
+async function testCraftApi() {
   apiPending.value = true
   apiResult.value = null
   try {
@@ -69,7 +82,7 @@ async function testCraftApi () {
       headers: { 'Content-Type': 'application/json' },
       body: {
         query: CRAFT_ABOUT_QUERY,
-        variables: { uri: ['about'] },
+        variables: { uri: ['dcp/about'] },
       },
     })
     apiResult.value = { status: 200, ok: true, data: data?.errors ? { ...data } : data }
