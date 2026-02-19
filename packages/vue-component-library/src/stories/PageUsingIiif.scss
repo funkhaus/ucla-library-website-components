@@ -1,0 +1,11 @@
+@import './GlobalPageStyles.scss';
+
+.page-using-iiif {
+  @include page-container;
+
+  .rich-text-section {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
