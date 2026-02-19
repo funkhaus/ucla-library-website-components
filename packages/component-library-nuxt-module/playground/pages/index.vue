@@ -32,7 +32,7 @@
           :disabled="apiPending"
           @click="fetchEntryByUri"
         >
-          {{ apiPending ? 'Fetching…' : 'Get entry by URI' }}
+          {{ apiPending ? 'Get entry by URI' : 'Get entry by URI' }}
         </button>
       </div>
 
@@ -743,14 +743,14 @@ async function runQuery(query: string, variables: Record<string, unknown>) {
   }
 }
 
-function listPages() {
-  runQuery(LIST_PAGES_QUERY, { limit: 1000 })
-}
 
 function fetchEntryByUri() {
   const uri = parseUri(uriInput.value)
   // runQuery(ENTRY_BY_URI_QUERY, { uri })
-  runQuery(STATIC_PAGE_QUERY)
+  runQuery(STATIC_PAGE_QUERY, {})
+}
+function listPages() {
+  runQuery(LIST_PAGES_QUERY, { limit: 1000 })
 }
 </script>
 
